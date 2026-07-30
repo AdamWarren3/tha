@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://adamwarren3.github.io/tha/sitemap.xml
