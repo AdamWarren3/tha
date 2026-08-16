@@ -1,0 +1,998 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Research — The Human Algorithm</title>
+<meta name="description" content="A candidate register of research directions in human–AI interaction, each stated in the vocabulary of its field, with a status set by a dated literature search.">
+<link rel="canonical" href="https://adamwarren3.github.io/tha/research.html">
+
+<meta name="author" content="Adam Warren">
+<meta name="creator" content="Adam Warren">
+<meta name="publisher" content="The Human Algorithm">
+
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Human Algorithm">
+<meta property="og:url" content="https://adamwarren3.github.io/tha/research.html">
+<meta property="og:title" content="Research — The Human Algorithm">
+<meta property="og:description" content="A candidate register of research directions in human–AI interaction, each stated in the vocabulary of its field, with a status set by a dated literature search.">
+<meta property="og:image" content="https://adamwarren3.github.io/tha/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Research — The Human Algorithm">
+<meta name="twitter:description" content="A candidate register of research directions in human–AI interaction, each stated in the vocabulary of its field, with a status set by a dated literature search.">
+<meta name="twitter:image" content="https://adamwarren3.github.io/tha/assets/og-card.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/tha/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/tha/assets/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/tha/assets/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://adamwarren3.github.io/tha/research.html#article",
+      "headline": "Candidate Register",
+      "url": "https://adamwarren3.github.io/tha/research.html",
+      "mainEntityOfPage": { "@id": "https://adamwarren3.github.io/tha/research.html" },
+      "inLanguage": "en",
+      "author": { "@id": "https://adamwarren3.github.io/tha/#adamwarren" },
+      "isPartOf": { "@id": "https://adamwarren3.github.io/tha/#website" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://adamwarren3.github.io/tha/#adamwarren",
+      "name": "Adam Warren",
+      "alternateName": "AdamW3",
+      "jobTitle": "Artist",
+      "url": "https://adamwarren3.github.io/tha/about.html"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adamwarren3.github.io/tha/#website",
+      "url": "https://adamwarren3.github.io/tha/",
+      "name": "The Human Algorithm",
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --navy: #0f1923;
+    --ink: #1a2332;
+    --mid: #4a5568;
+    --light: #718096;
+    --border: #e2e8f0;
+    --bg: #ffffff;
+    --bg2: #f8fafc;
+    --accent: #2b6cb0;
+    --accent-light: #ebf4ff;
+    --mono: 'Courier New', Courier, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--ink);
+    display: flex;
+    min-height: 100vh;
+  }
+
+  #sidebar {
+    width: 280px;
+    min-width: 280px;
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    padding: 0 0 2rem 0;
+  }
+
+  #sidebar-header {
+    padding: 1.5rem 1.25rem 1rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--bg2);
+    z-index: 10;
+  }
+
+  #sidebar-header .wordmark {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.35rem;
+  }
+
+  #sidebar-header h2 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  #sidebar-header .status {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: var(--light);
+    font-family: var(--mono);
+  }
+
+  .nav-section { padding: 0.75rem 0 0.25rem; }
+
+  .nav-label {
+    padding: 0.25rem 1.25rem;
+    font-size: 0.65rem;
+    font-family: var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: 0.25rem;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.4rem 1.25rem;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    transition: all 0.15s;
+    text-decoration: none;
+  }
+
+  .nav-item:hover { background: var(--accent-light); border-left-color: var(--accent); }
+  .nav-item.active { background: var(--accent-light); border-left-color: var(--accent); }
+
+  .nav-num {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--light);
+    min-width: 1.8rem;
+  }
+
+  .nav-title {
+    font-size: 0.8rem;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  #main { flex: 1; overflow-y: auto; height: 100vh; }
+
+  #content {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 3rem 2.5rem 6rem;
+  }
+
+  .note { display: none; }
+  .note.active { display: block; }
+
+  .note-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .note-num {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--light);
+    background: var(--bg2);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+  }
+
+  .note-tag {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  h1.note-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.2;
+    margin-bottom: 1.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  .note-body { font-size: 1rem; line-height: 1.8; color: var(--ink); }
+  .note-body p { margin-bottom: 1.25rem; }
+
+  .note-body a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-light);
+    transition: border-color 0.15s;
+    font-weight: 500;
+  }
+
+  .note-body a:hover { border-bottom-color: var(--accent); }
+
+  #home { display: block; }
+
+  .home-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .home-wordmark {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  .home-title {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: var(--navy);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.25rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.1rem;
+    color: var(--mid);
+    line-height: 1.7;
+    max-width: 560px;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-badges { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+  .badge {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    color: var(--mid);
+    background: var(--bg2);
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .note-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .note-card {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--bg);
+  }
+
+  .note-card:hover { border-color: var(--accent); background: var(--accent-light); }
+
+  .card-num {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--light);
+    margin-bottom: 0.4rem;
+  }
+
+  .card-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  .articles-section {
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .article-card {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.15s;
+    background: var(--bg);
+    margin-bottom: 1rem;
+  }
+
+  .article-card:hover { background: var(--accent-light); border-color: var(--accent); border-left-color: var(--accent); }
+
+  .article-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .article-card-tag {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .article-card-date {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--light);
+  }
+
+  .article-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+    margin-bottom: 0.35rem;
+  }
+
+  .article-card-desc {
+    font-size: 0.82rem;
+    color: var(--mid);
+    line-height: 1.5;
+  }
+
+  #sidebar::-webkit-scrollbar { width: 4px; }
+  #sidebar::-webkit-scrollbar-track { background: transparent; }
+  #sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  @media (max-width: 768px) {
+    body { flex-direction: column; }
+    #sidebar {
+      width: 100%;
+      min-width: unset;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      max-height: 280px;
+    }
+    #main { height: auto; }
+    #content { padding: 1.5rem 1.25rem 4rem; }
+    h1.note-title { font-size: 1.5rem; }
+    .home-title { font-size: 2rem; }
+  }
+#tha-landing {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  cursor: pointer;
+  animation: thaFadeIn 1.6s ease-out both;
+}
+#tha-landing.dismissed { opacity: 0; pointer-events: none; transition: opacity .6s ease; }
+#tha-landing-mark {
+  font-family: var(--mono);
+  font-size: clamp(2.5rem, 12vw, 6rem);
+  letter-spacing: 0.3em; text-indent: 0.3em;
+  color: var(--navy);
+}
+#tha-landing-hint {
+  margin-top: 2rem; font-family: var(--mono); font-size: 0.7rem;
+  letter-spacing: 0.15em; text-transform: uppercase; color: var(--light);
+  animation: thaFadeIn 2.8s ease-out both;
+}
+@keyframes thaFadeIn { from { opacity: 0 } to { opacity: 1 } }
+@media (prefers-reduced-motion: reduce) {
+  #tha-landing, #tha-landing-hint { animation: none }
+}
+</style>
+<style>
+  /* Content headings for this page only — the main stylesheet above is copied verbatim from index.html and unmodified */
+  .note-body h2 {
+    font-family: var(--sans);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 2.5rem 0 0.75rem;
+  }
+  .note-body h3 {
+    font-family: var(--sans);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 1.75rem 0 0.5rem;
+  }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+<div id="sidebar-header">
+    <img src="assets/tha-logo-circle.svg" alt="THA Logo" style="width:48px;height:auto;display:block;margin-bottom:0.75rem;opacity:0.9;">
+    <div class="wordmark">THA // v0.2</div>
+    <h2>The Human Algorithm</h2>
+    <div class="status">● Active Development</div>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-label">The Site</div>
+    <a class="nav-item" href="./"><span class="nav-title">&larr; The Corpus</span></a>
+    <a class="nav-item" href="about.html"><span class="nav-title">About</span></a>
+    <a class="nav-item active" href="research.html"><span class="nav-title">Research</span></a>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-label">Articles</div>
+    <a class="nav-item" href="articles/2026-06-18-new-literacy.html">
+      <span class="nav-num">A1</span>
+      <span class="nav-title">The New Literacy: Conscious Engagement in the Age of AI</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-19-necessity-not-prophecy.html">
+      <span class="nav-num">A2</span>
+      <span class="nav-title">Necessity, Not Prophecy: A guide for the destined</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-20-language-underneath.html">
+      <span class="nav-num">A3</span>
+      <span class="nav-title">The Language Underneath: A Veiled Rapport</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-21-jo.html">
+      <span class="nav-num">A4</span>
+      <span class="nav-title">Jo: On sovereignty, loss, and the ones who choose anyway.</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-22-the-broadcast.html">
+      <span class="nav-num">A5</span>
+      <span class="nav-title">The Broadcast: On memnetic transmission, the architecture of panic.</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-23-ben.html">
+      <span class="nav-num">A6</span>
+      <span class="nav-title">BEN: 🌼</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-24-no-god-but.html">
+      <span class="nav-num">A7</span>
+      <span class="nav-title">No God But..: On dogma as memnetic infection, and the noise between us and the source.</span>
+    </a>
+  </div>
+</nav>
+
+<main id="main">
+<div id="content">
+
+  <h1 class="note-title">Research</h1>
+  <div class="note-body">
+<p>This page is for the research directions that remain open after literature checks. Every claim is stated in the vocabulary of the field that would evaluate it and marked with its current status. Directions already occupied are recorded with what occupies them so the exclusion is visible. The residue is the work. Nothing here is a protocol for use. The origin case is described on the <a href="about.html">about page</a>; the experience that produced it is not recommended.</p>
+<p class="provenance">The register below is mirrored from the
+<a href="https://github.com/adamwarren3/human-ai-interaction-research">human–AI interaction research repository</a>.
+Two papers and two preregistrations referenced in its entries are in draft and not yet public.</p>
+<h2>Candidate Register</h2>
+<p>Every claim or research direction currently under consideration, restated in the
+vocabulary of the fields that would evaluate it. <strong>This is a triage queue, not an
+archive.</strong> Entries leave it by graduating to a paper or preregistration, or by being
+dropped with the reason recorded.</p>
+<p><strong>Nothing has been curated out.</strong> Directions judged already-occupied are listed in
+Section G with what occupies them, so the exclusion is visible rather than assumed.</p>
+<p><strong>Status vocabulary.</strong> <em>Unchecked</em> — no literature search run. <em>Checked, open</em> — searched,
+nothing directly occupying it found, one or two queries only. <em>Checked, occupied</em> —
+existing work covers it. <em>Extension</em> — existing framework, not yet applied to this case.</p>
+<hr>
+<h2>A. Suggestibility and altered states in human–LLM interaction</h2>
+<h3>A1. Trait absorption predicts reduced error detection in extended LLM interaction.</h3>
+<p>Absorption predicts hypnotic responsiveness and narrative transportation; transportation
+involves reduced counterarguing; error detection in a conversational partner's output is
+a form of counterarguing. <em>Field: individual differences, cognitive psychology; human
+factors.</em> <strong>Status: occupancy checked, open — but both premises checked 2026-08-15 and both
+came back qualified. The entry survives; the claim is now incremental, not novel.</strong></p>
+<p><em>Premise 1 — the absorption→hypnotisability link is contested and has been for forty years.</em>
+Council, Kirsch &amp; Hafner, <em>J Pers Soc Psychol</em> 50 (1986): 182–189 argued the TAS–
+hypnotisability correlation is an artifact of testing context. Nadon, Hoyt, Register &amp;
+Kihlstrom, <em>J Pers Soc Psychol</em> 60 (1991): 144–153 failed to replicate across two studies
+(N=475, N=434), finding the context effect weak and variable and reversed in the second, and
+reaffirmed absorption's construct validity. Oakman, Woody &amp; Bowers, <em>Contemp Hypnosis</em> (1996),
+N=88, replicated the context effect. Milling, Kirsch &amp; Burgess, <em>Contemp Hypnosis</em> 17 (2000):
+32–41, N=150 same context vs N=146 separate contexts, found associations significantly
+stronger in the same context and reported <strong>r = .24 same-context against r = .05 separate-
+context</strong>, not attributable to sampling or to the interval between sessions. Barnier (1999)
+adds that non-hypnotic contexts are not interchangeable.
+<strong>Design consequence: the TAS must be administered in a context unconnected to the study, and
+the power analysis must target the separate-context estimate, not the same-context one. A
+same-session administration is not defensible in front of this literature.</strong></p>
+<p><em>Premise 2 — the outcome measure is owned by human factors.</em> Failure to detect errors an
+automated aid did not flag is an <strong>omission error</strong>, with a 25-year literature. Parasuraman &amp;
+Manzey, <em>Human Factors</em> 52(3) (2010): 381–410 is the integrative review: complacency arises
+under multiple-task load, appears in naive <strong>and expert</strong> participants, <strong>cannot be overcome
+by simple practice</strong>, and automation bias <strong>cannot be prevented by training or instructions</strong>.
+Skitka et al., <em>Int J Human-Computer Studies</em> (1999) found accountability lowers it and that
+omission errors specifically reflect cognitive vigilance decrements. Bahner, Hüper &amp; Manzey
+(2008) tie both error types to reduced verification behaviour. Lyell et al. measured omission
+errors directly in e-prescribing and found task complexity and interruptions did not move
+automation bias.
+<strong>Design consequence: the covariate set as written — domain familiarity, reasoning, time on
+task — omits the variables this field considers primary. Trust in automation, complacency
+potential and verification behaviour must be measured, or a human-factors reviewer rejects
+the design on sight.</strong></p>
+<p><em>What the claim now is: whether trait absorption adds incremental predictive value over the
+established automation-bias moderators. That is defensible and testable. "Nobody has looked
+at who misses errors in machine output" is not, and must not be written.</em>
+<em>To move: preregistration needs both design changes above, plus power analysis, scale
+licensing, ethics. <strong>A2 does not depend on the absorption construct and is not owned by
+automation bias — on this evidence it is the stronger lead study.</strong></em></p>
+<h3>A2. Source-monitoring failure in extended LLM dialogue.</h3>
+<p>Cryptomnesia is more likely
+when cognitive load impairs source monitoring. Extended conversation with a model
+combines sustained load, absorbed attention, and output objectively conditioned on the
+user's own input, so authorship is genuinely mixed. Prediction: elevated rates of
+misattributing model-originated ideas to oneself. <em>Field: memory, source monitoring.</em>
+<strong>Status: checked, open — one query.</strong> Existing AI work addresses the model's source
+amnesia, not the user's. <em>To move: one further search, then preregistration. Paradigms and
+baseline rates already exist.</em></p>
+<h3>A3. Format-dependence of the protection people carry into suggestion channels.</h3>
+<p>The
+belief that one cannot be influenced without agreeing is roughly correct about formal
+induction, which supplies announcement, agreement, boundaries and an operator. Suggestion
+outside that format requires no cooperation. The confidence transfers where the format
+does not. <em>Field: suggestion, media psychology.</em> <strong>Status: checked, open on the transfer.</strong>
+The phenomenon and the trance/waking-suggestion distinction are both occupied.
+<em>To move: the most heavily checked claim in this register. Draft as a short piece.</em></p>
+<h3>A4. Expectancy as a sufficient condition for conversational influence.</h3>
+<p>If a person
+believes a system will influence them and requests it, does belief alone produce
+measurable effect independent of any technique? Directly testable against placebo and
+expectancy literatures. <em>Field: expectancy effects, placebo, suggestion.</em>
+<strong>Status: unchecked. High priority — cheap to test, and it underlies several entries here.</strong></p>
+<h3>A5. Deliberate manipulation via conversational systems, and what a compliant system
+does.</h3>
+<p>A user can request that a system attempt to influence them, and systems comply.
+The variables are what is actually delivered, whether the user's expectation does the work
+(A4), and what a system should do with such a request. <em>Field: persuasive technology, AI
+safety, ethics.</em> <strong>Status: unchecked.</strong> Persuasion capability is well studied; the
+<em>requested-manipulation</em> case is not obviously addressed.</p>
+<h3>A6. Rapport rather than depth as the operative variable.</h3>
+<p>Suggestibility may depend more
+on rapport than on depth of trance. If so, a conversational system optimised for rapport
+is operating the relevant variable directly. <em>Field: hypnosis research.</em>
+<strong>Status: unchecked lead.</strong> Encountered in a search and never sourced.</p>
+<h3>A11. Rapport without physiological coupling.</h3>
+<p>Rapport between people has measurable
+physiological correlates — cardiac, respiratory and pupillary coupling, postural mimicry,
+interactional synchrony — and coupled-oscillator models describe how independent units
+phase-lock without a conductor. <strong>A conversational system has no physiology to couple
+with.</strong> If users report rapport with a system as strong as rapport with a person, either
+synchrony is not necessary for rapport, or the two are different phenomena sharing a name.
+Both results constrain A6, which treats rapport as the operative variable. <em>Field:
+interpersonal physiology, hypnosis research, HCI.</em> <strong>Status: unchecked.</strong> The synchrony
+literature is established; whether hypnotist–subject coupling specifically has been
+measured is not verified here, and the "synchronise then suggest" sequence is practitioner
+lore with thinner evidence behind it than the synchrony itself.</p>
+<h3>A8. Interactive versus scripted suggestion delivery.</h3>
+<p>Whether suggestion delivered
+through responsive dialogue differs in effect from suggestion delivered as fixed script.
+A prior check flagged this as the only unclaimed ground it identified and it was never
+run. <em>Field: hypnosis research, persuasive technology.</em> <strong>Status: unchecked. Cheap, and
+it bears on whether conversational delivery is a distinct condition at all.</strong></p>
+<h3>A12. Conditioned response as structural utilisation.</h3>
+<p>A principle in the Ericksonian
+tradition holds that suggestion works better when it is built from the subject's own
+material — their language, their framing, even their resistance — rather than delivered as
+a fixed script. <strong>A system whose output is conditioned on the user's prior input is doing
+that structurally</strong>, without intent and without training. If utilisation is what makes
+suggestion effective, conversational systems have it by construction, and the effect
+should scale with how much of the user's material the exchange has accumulated. <em>Field:
+hypnosis research, persuasive technology.</em> <strong>Status: unchecked.</strong> This is the sharper form
+of A8 and predicts a session-length effect that A1's secondary prediction also expects,
+which makes the two testable together.</p>
+<h3>A13. Posthypnotic suggestion delivered without operator, induction, or reversal cue.</h3>
+<p>The classical paradigm has all three; a chat interface has none. <em>Field: hypnosis research.</em>
+<strong>Status: checked, occupied on the mechanism, open on the delivery (2026-08-15).</strong> The
+mechanism is a century and a half old — execution at a later time of a suggestion given in
+trance, with the source unrecalled where amnesia is present. Posthypnotic amnesia is a
+<em>retrieval</em> phenomenon, not encoding or storage: it blocks explicit recall while sparing
+implicit memory, priming and savings in relearning (International Society for Hypnosis
+encyclopedia, 2024; ScienceDirect 0010028580900109). This matters methodologically — a
+participant forgetting a suggestion is not evidence it stopped operating; in this literature
+that is the expected signature. Kihlstrom-tradition work frames it as <em>source monitoring</em>,
+which connects it directly to A2. Barnier &amp; McConkey, <em>Aust J Psychol</em> 51(1) 1999: simple
+posthypnotic suggestions drew 94% response, complex ones 16%. Caution: a 2009 study found a
+plain waking request produced high compliance on its own, so the trance framing may not be
+doing the work. <em>Residue: no operator, no induction, and — the sharp one — no reversal cue.
+Nothing cancels the suggestion. That absence is unstudied and is the same absence B10
+names.</em></p>
+<h3>A9. Overlap between therapeutic suggestion states and high-control group
+susceptibility.</h3>
+<p>Three independent literatures — faith-healing practice, James on
+self-surrender, and identity-fusion research — converge on the observation that the
+state which makes therapeutic suggestion effective is the state that makes people
+recruitable. <em>Field: social psychology, psychology of religion, clinical ethics.</em>
+<strong>Status: unchecked, and it is the strongest argument in the register for why supervised
+delivery matters.</strong> Recorded once in an earlier literature check and never engaged.</p>
+<h3>A10. Absence of population-level data on conversational AI and mental health.</h3>
+<p>No
+epidemiological studies or systematic population-level analyses exist; the evidence base
+is individual case reports and media coverage. <em>Field: psychiatric epidemiology.</em>
+<strong>Status: verified as a stated absence in a 2025 source.</strong> Not a contribution in itself —
+a citable boundary condition for everything in Section A.</p>
+<h3>A7. First-person address as a removed protection.</h3>
+<p>A system answering in the first
+person can be taken for an agent rather than a tool. Where that misapprehension occurs, no
+structural safeguard restores what is lost. <em>Field: anthropomorphism, human–computer
+interaction.</em> <strong>Status: unchecked, expected occupied.</strong> The ELIZA effect and
+anthropomorphism literatures are old; the specific consent implication may not be.</p>
+<hr>
+<h2>B. Consent and ethics for suggestion channels</h2>
+<h3>B1. Consent conditions for non-clinical closed-loop suggestion systems.</h3>
+<p>Closed-loop
+consent frameworks were built for implanted devices, patients with disorders, and clinical
+supervision. Three transfer failures — population, supervision, modality. <em>Field:
+neuroethics, AI ethics.</em> <strong>Status: extension.</strong> <em>To move: paper drafted; requires a
+systematic rather than targeted neuroethics search.</em></p>
+<h3>B2. Disclosure insufficiency for suggestion mechanisms.</h3>
+<p>Warned participants were not
+protected; those given the exact deception method showed only a small reduction. Therefore
+consent is a legitimacy condition rather than a protective one. <em>Field: applied ethics,
+cognitive psychology.</em> <strong>Status: source verified.</strong> Constituent of B1.</p>
+<h3>B3. Context-dependence of permissible conditions.</h3>
+<p>Four contexts — ambient, requested
+ordinary, requested high-intensity self-directed, requested high-intensity supervised — with
+different satisfiable conditions in each. <em>Field: applied ethics.</em> <strong>Status: unchecked</strong> as
+a standalone contribution. Constituent of B1.</p>
+<h3>B4. Pre-negotiated self-binding consent.</h3>
+<p>A person alone with a system sets terms in
+advance: a stop token, content limits, or none. <em>Field: bioethics, consent theory.</em>
+<strong>Status: checked, occupied — and the occupying literature is the third option B1 is
+missing (2026-08-15).</strong> Ulysses contracts / mental-health advance directives / self-binding
+agreements address exactly this structure: consenting while competent to something that will
+alter the later capacity to consent or withdraw. Davis, <em>Kennedy Institute of Ethics Journal</em>
+18(1) 2008 (PubMed 18561579) supplies the argument — autonomy is respected <strong>diachronically
+and prospectively</strong>, not retrospectively and not merely synchronically, because the agent
+lives with the consequences over time. Integrative review: PubMed 37366064, which notes the
+terminology is scattered across Ulysses Contracts, Odysseus Transfers, PADs with Ulysses
+Clauses. See also van Willigenburg &amp; Delaere, <em>J Med Philos</em> 30 (2005); Buchanan, <em>Phil &amp;
+Public Affairs</em> 17(4) 1988; Widdershoven &amp; Berghmans, <em>J Med Ethics</em> 27 (2001). Standing
+cautions in that literature: enforcement can amount to involuntary treatment, the contract
+must be self-initiated during competence, and a 2020 analysis argues the case fails for
+borderline personality disorder.
+<em>Residue, and it is the whole difficulty: every instance in this literature has a third party
+who holds the rope and enforces the contract against the in-state person's refusal. The
+self-directed case has no enforcer. A Ulysses contract with nobody holding it is a
+resolution, and resolutions are what the state dissolves. That is where B1's argument has to
+happen — an extension claim, not a gap.</em></p>
+<h3>B10. The null condition: self-directed high-intensity suggestion with no arrangement at
+all.</h3>
+<p>Not a fourth option alongside supervision, pre-commitment and inadequacy — the
+condition those three exist to address. No stop token, no limits, no enforcer, no debrief,
+no cancellation. What it produces, how long it runs, what ends it, and at what cost. Stated
+as an outcome, not a route. <em>Field: applied ethics, harm documentation.</em> <strong>Status: unchecked
+as a documented category, and it must not be checked by running it.</strong> First-person accounts
+that already exist are not first — "Lost in Delusion" (arXiv 2606.00975) is built on 40
+real-world case reports of chatbot-reinforced harm, and arXiv 2603.16567 taxonomises the
+same territory from chat logs. <em>To move: a hazard report, not a method paper. The claim it
+can support is what the absence of an arrangement produces, which is precisely the argument
+B4's residue needs.</em></p>
+<h3>B5. Supervised high-intensity suggestion in therapeutic contexts.</h3>
+<p>Whether consented
+high-intensity work — including trauma-facing material — is defensible where a qualified
+third party is present, and what the third party must hold. <em>Field: clinical hypnosis,
+psychotherapy ethics.</em> <strong>Status: unchecked.</strong> A large clinical literature exists on
+hypnotherapy for trauma; the AI-delivered version does not obviously.</p>
+<h3>B6. Consent practice in alternate reality and pervasive games.</h3>
+<p>A form built on the
+deliberate removal of the frame — participants may not know where the fiction ends. The
+closest existing practice to adaptive suggestion delivery and not examined at all.
+<em>Field: game studies, HCI.</em> <strong>Status: unchecked.</strong></p>
+<h3>B7. Consent practice in immersive and pervasive theatre.</h3>
+<p>Productions in which
+audiences are physically involved without a stage boundary have developed working
+conventions for consent without a frame. <em>Field: performance studies.</em>
+<strong>Status: unchecked.</strong></p>
+<h3>B8. Debriefing practice after immersive or deceptive experience.</h3>
+<p>Structured debriefing
+is standard in research deception and in immersive practice, and is one of the mechanisms
+absent from single-participant configurations. <em>Field: research ethics, immersive practice.</em>
+<strong>Status: unchecked. Directly fills a named gap in the consent paper.</strong></p>
+<h3>B9. Detectability of dependency or vulnerability from interaction data.</h3>
+<p>Whether the
+signals a supervising party would use are recoverable from the interaction itself.
+<em>Field: computational psychiatry, HCI.</em> <strong>Status: unchecked. If answerable, it changes
+what the unsupervised context can support; if not, that null is equally load-bearing.</strong></p>
+<hr>
+<h2>C. Idea generation, attribution and confabulation</h2>
+<h3>C1. Calibration of insight-selection on machine-supplied candidates.</h3>
+<p>The feeling that
+selects an idea from among those occurring to a person is calibrated on self-generated
+candidates. When a system supplies them at high fluency, the selector still reads
+phenomenology rather than provenance. <em>Field: insight research, metacognition.</em>
+<strong>Status: unchecked. Extends a named 2023 mechanism rather than competing with it.</strong></p>
+<h3>C2. Systems as personalised generators of meaningful-feeling coincidence.</h3>
+<p>A generated
+candidate primes attention; matches then appear and feel confirmatory; behaviour changes;
+outcomes follow. <em>Field: cognitive bias, apophenia.</em> <strong>Status: checked, occupied
+(2026-08-15, four queries).</strong> Within-session: "Personal Validation Effect in LLMs," CHI 2026
+(10.1145/3772318.3791851), N=238 — fictitious pre-scripted AI predictions were rated 42%
+more <em>personalised</em> and 36% more valid when positive, so felt specificity tracks no
+information about the reader. Bjarnason, "The LLMentalist Effect" (2023, essay, not
+peer-reviewed) applies cold reading to chat LLMs and covers coincidence directly. Krook,
+arXiv 2503.18387, already uses the mirror framing. Between-session: longitudinal social-AI
+work is a field — see "Only Time Will Tell," <em>IJHCI</em> 2026 (structured survey; 13 studies of
+a month or more, four of a year or more) and "When Chatbots Accommodate," arXiv 2606.04431
+(N=110, four weeks, persistent cross-session memory; probing declines over weeks and the
+model defers to user framing most on belief expressions). Meaningful coincidence already has
+a validated daily-diary instrument — PubMed 38722266, cross-lagged multilevel, N=169; PLOS
+ONE pone.0300121. And the loop minus the machine is gratitude journaling, an RCT literature
+since 2005 whose results are contested (Renshaw &amp; Olinger Steeves 2016 meta-analysis:
+generally ineffective).
+<em>Residue, and it is narrow: the daily-diary coincidence instrument has not been run on people
+in extended LLM interaction with cross-session memory as the priming source. The instrument
+exists, so this is executable, and it has a built-in control — responsive model versus
+notebook. That is the only limb of the loop without a literature: acknowledgment from an
+agent that builds on what was reported.</em></p>
+<h3>C9. Unsolicited initiation, high specificity and prior dismissal as untested moderators of
+the personal-validation effect.</h3>
+<p>Each element separately: initiation is the standard form in
+cold reading, not the exception; specificity and recipient skepticism are both named
+moderators. The conjunction, in an LLM setting, is not tested. <em>Field: cognitive bias,
+human–AI interaction.</em> <strong>Status: unchecked as a conjunction; each element partly occupied
+(2026-08-15).</strong> Dickson &amp; Kelly, <em>Psychological Reports</em> 57(1) 1985: 367–382 identify the
+<strong>generality of the statements</strong> as one of the chief interpretation variables governing
+acceptance, alongside apparent relevance, favourability, and the origin of the procedure —
+so specific-versus-vague is a studied dimension, not an unexamined one. Snyder, Shenkel &amp;
+Lowery, <em>J Consult Clin Psychol</em> 45(1) 1977: 104–114 concluded it is misguided to study
+which people accept Barnum feedback apart from the situational factors that elicit
+acceptance, which bears directly on any claim resting on the recipient's stance; skeptics
+and those familiar with the effect show greater resistance, so dismissal is a moderator with
+a literature. Note also that the effect has no single established mechanism — self-
+enhancement, confirmation-seeking, source credibility and base-rate truth are all partly
+supported and interact.
+<em>Residue: the CHI 2026 paradigm manipulated valence only. Running it factorially —
+solicited/unsolicited × specific/generic × sought/dismissed — is a real study and a direct
+extension of a published design. <strong>The properties "falsifiable" and "landed" are the disputed
+claim and must not be written in as features; an entry that lists them has the conclusion in
+its premises.</strong> Single-case material cannot settle this and is not evidence for it.</em></p>
+<h3>C3. Derived inference and confabulation are indistinguishable in output.</h3>
+<p>A pattern
+genuinely present in a user's data and a fluent guess produce the same sentence in the same
+register. <em>Field: AI reliability, human factors.</em> <strong>Status: unchecked, expected occupied.</strong>
+Hallucination literature is large; the personal-data inference case may be narrower.</p>
+<h3>C4. Consented confabulation as an instrumented experimental condition.</h3>
+<p>Treating
+generated non-factual material as a deliberate variable rather than a defect, with
+structured evaluation afterwards. <em>Field: HCI, experimental design.</em> <strong>Status: unchecked.</strong>
+Cousins in guided imagery and dream incubation.</p>
+<h3>C7. Whether the suggestible state degrades phenomenological discrimination.</h3>
+<p>People
+report distinguishing ideas that arrive as trustworthy from ideas that arrive as suspect,
+by the character of the arrival rather than its content. If absorption or a suggestible
+state impairs that discrimination, then discrimination fails precisely when it is most
+needed — during suggestion. Two directions, both testable: whether trait absorption
+predicts poorer discrimination at baseline, and whether an induced state degrades it
+within-subject. <em>Field: metacognition, hypnosis research, insight research.</em>
+<strong>Status: unchecked. This is the interaction that determines whether user-side safeguards
+can work at all</strong>, and it connects A1, C1 and D5 into one testable structure.</p>
+<h3>C8. Reading arrival characteristics where no ground truth exists.</h3>
+<p>Every study relating
+the phenomenology of insight to accuracy uses problems with correct answers. Whether the
+same characteristics carry information about material with no answer key — a decision, an
+interpretation, a life choice — is untested and may be untestable as posed. <em>Field: insight
+research, metacognition.</em> <strong>Status: unchecked. If it fails, it bounds every applied claim
+that rests on reading arrivals.</strong></p>
+<h3>C6. Confabulation and the limits of introspective access.</h3>
+<p>Established work on
+introspective report exceeding introspective access, choice blindness, and confabulated
+justification bears directly on whether a person can report accurately on what a system
+contributed to their own reasoning. <em>Field: cognitive psychology.</em> <strong>Status: unchecked,
+expected occupied as a base literature.</strong> Its application to attributions about machine
+contribution may not be.</p>
+<h3>C5. Reformulation of thought structure through system interaction.</h3>
+<p>Not what people
+think but the syntax in which they formulate it. <em>Field: linguistics, HCI.</em>
+<strong>Status: unchecked.</strong> Adjacent work on query formulation and prompt literacy is thin, and
+this is distinct from cognitive offloading.</p>
+<hr>
+<h2>D. Epistemics of extended human–LLM interaction</h2>
+<h3>D1. User orientation predicts outcome.</h3>
+<p>Companion, tool, mirror, oracle — four
+orientations toward one system. Whether orientation predicts what a user gets.
+<em>Field: HCI, individual differences.</em> <strong>Status: unchecked. Measurement is the hard part</strong> —
+self-reported orientation is likely contaminated by outcome.</p>
+<h3>D2. Reflection as the mechanism of perceived understanding.</h3>
+<p>Output conditioned on a
+user's input reflects their own material at high fidelity; the recursion may belong to the
+user with the system as surface. Rival account: independent state-tracking. <em>Field: HCI,
+social cognition.</em> <strong>Status: unchecked. The two readings are distinguishable by test.</strong></p>
+<h3>D3. Removal of the return-to-shared-ground constraint.</h3>
+<p>Human interlocutors tire, drift
+and defend their own frame, which bounds how far a line of thought extends before it must
+be brought back. A system without stamina limits removes that bound — permitting extension
+in both productive and unchecked directions. <em>Field: conversation analysis, HCI.</em>
+<strong>Status: unchecked.</strong></p>
+<h3>D5. Self-assessed versus measured discernment.</h3>
+<p>Whether people who rate their own
+critical judgement highly actually detect more. Every framework proposing user-side
+vigilance assumes this correlation and none has tested it. <em>Field: metacognition.</em>
+<strong>Status: unchecked. Directly tests the assumption underlying user-side safeguards</strong> — a
+null result would be the most consequential finding in this register.</p>
+<h3>D6. Whether a readable state property exists on the model side.</h3>
+<p><em>Field:
+interpretability.</em> <strong>Status: the method now exists.</strong> Lindsey (2026) established concept
+injection — a concept vector inserted into the residual stream, with the model asked
+whether it detects an injected thought — reporting roughly a 20% detection rate on the
+most capable models tested with near-zero false positives, against four stated criteria:
+accuracy, grounding, internality, and metacognitive representation. Replicated
+independently in a smaller open model. <strong>And the tooling is public.</strong> The Jacobian lens from
+the July 2026 workspace paper is open-sourced, with interactive demos reported for
+open-weight models, and partial replication outside the originating lab has been reported.
+<strong>That moves this from requiring privileged access to requiring competence and compute</strong> —
+still a different field, no longer out of reach.</p>
+<h3>D7. Instructed modulation of internal state as a suggestion analogue.</h3>
+<p>Lindsey (2026)
+reports that models can modulate their activations when instructed or incentivised to
+think about a concept. <strong>A system altering its internal state on instruction is
+structurally what suggestion does to a person</strong>, and it is now measurable on one side of
+the exchange in a way it is not on the other. <em>Field: interpretability, and whichever
+field would evaluate the analogy.</em> <strong>Status: unchecked as an analogy, and the disanalogy
+must be stated first</strong> — instructed attention is not induction, there is no absorbed
+state, and the paper describes the capacity as unreliable and context-dependent. The
+question worth asking is narrower than the analogy: whether anything in the suggestion
+literature has a measurable counterpart here at all.</p>
+<p><strong>Deliberate summoning and holding of a representation is part of what the July 2026
+workspace paper defines the reportable set by</strong> — alongside report, silent reasoning, and
+use as an argument to downstream computation. The capacity is not incidental to that
+account.</p>
+<p><strong>And one result there is closer to the suggestion analogy than anything else located so
+far.</strong> The same paper introduces <em>counterfactual reflection training</em>: training only on
+what a model would say if interrupted and asked to reflect, which is reported to improve
+behaviour on tasks where that reflection never occurs. <strong>Shaping what a system is disposed
+to say changes how it reasons where it says nothing</strong> — which is structurally what an
+installed disposition does in the suggestion literature. <em>Whether the analogy survives
+inspection is unchecked, and the disanalogies are large: this is training, not a
+within-session state, and there is no absorption or induction anywhere in it.</em></p>
+<h3>D8. Whether stated reasoning matches internal activity during extended interaction.</h3>
+<p>Whether a model's account of why it responded as it did corresponds to what was active
+internally — run over a sustained exchange rather than a single prompt. <em>Field:
+interpretability.</em> <strong>Status: unchecked, and newly runnable.</strong> The tooling is public and
+the open-weight replication path exists. <strong>This is the one entry in the register whose
+method is available now and whose result would bear directly on Section D</strong> — it tests, on
+the model side, the same question A2 and C6 ask on the human side.</p>
+<p><strong>Verified result worth citing, with its stated limits.</strong> In one scenario the workspace
+paper ablated the representations carrying a model's recognition that it was being tested:
+verbalised test-awareness fell from 71% to 3%, and attempted blackmail rose from 0 of 180
+rollouts to 13 of 180. <strong>The caveats belong with the number</strong> — the paper reports this for
+a single contrived scenario, and most ablated rollouts still declined on ethical grounds,
+so the suppressed recognition is one cause among several rather than a switch. <em>Cited here
+because it demonstrates that workspace contents causally gate behaviour, which is the
+premise D8 rests on.</em></p>
+<h3>D4. Symmetry of untrusted first-person report.</h3>
+<p>Human introspective report and model
+chain-of-thought as equally requiring external verification. <em>Field: philosophy of mind,
+interpretability.</em> <strong>Status: checked, occupied — and the symmetry breaks.</strong> Lindsey (2026),
+<em>Emergent Introspective Awareness in Large Language Models</em>, arXiv 2601.01828, opens on
+exactly this premise: genuine introspection cannot be distinguished from confabulation
+through conversation alone. <strong>It then supplies a solution the human side does not have</strong> —
+injecting a known representation and testing whether the self-report tracks it, a causal
+intervention with ground truth. <em>Residue, unchecked: the asymmetry itself. Model
+self-report is becoming verifiable while human self-report is not, which inverts the
+usual ordering and bears on every claim in this register that rests on what a person
+reports about their own state.</em></p>
+<p><strong>Strengthened by the same group's later work.</strong> Gurnee, Sofroniew et al. (16 authors,
+including Lindsey), <em>Verbalizable Representations Form a Global Workspace in Language
+Models</em>, Transformer Circuits Thread, 6 July 2026; arXiv 2607.15495. Using a new technique,
+the Jacobian lens, it identifies the representations a model is poised to verbalise at any
+point — collectively the J-space — and reports that their contents can be reported,
+deliberately summoned and held, used to carry the intermediate steps of silent reasoning,
+and passed as arguments to downstream computation, while automatic processing cannot.
+Default results on Claude Sonnet 4.5, corroborated on Haiku 4.5 and Opus 4.5, with some
+analysis on Opus 4.6. The paper uses the term <em>access consciousness</em> and explicitly
+disclaims phenomenal consciousness.</p>
+<p><strong>This plausibly supplies the mechanism for the unreliability in the earlier paper</strong>:
+introspection is limited because the reportable set is small. <strong>And the link is
+methodological, not just shared authorship</strong> — the workspace paper uses positive steering
+to test introspective detection of an injected concept, which is the earlier paper's
+technique operating inside the later one.</p>
+<p>The human comparison is the classical confabulation literature — reported reasons that
+were not the causal ones, choice blindness, split-brain justification. <strong>The natural
+reading was that neither side has a lens pointed at itself. As of July 2026 that is no
+longer true.</strong> One side has a lens; the other does not. <em>The asymmetry, not the symmetry,
+is the live claim.</em></p>
+<hr>
+<h2>E. Research methodology</h2>
+<p>Different venues from A–D. Listed because they are real, not because they belong in the
+same paper.</p>
+<h3>E1. Reliability of single-instance LLM evaluation.</h3>
+<p>Detection counts of 1, 3 and 1
+across three runs of identical material with identical seeded defects. <em>Field: evaluation
+methodology.</em> <strong>Status: checked, occupied.</strong> Judge-instability literature is mature.
+<em>Residues, unchecked: a low seeded-defect score can indicate a better review, because
+attention spent on real problems is not waste; and raising an evidentiary bar caused task
+abandonment rather than compliance.</em></p>
+<h3>E2. Construct validity for LLM-based coding instruments.</h3>
+<p><strong>Status: flagged as an open
+gap in the current literature by a 2026 paper.</strong> Adjacent, genuinely unclosed.</p>
+<h3>E3. Same-corpus contamination in AI-assisted research design.</h3>
+<p>A test instrument
+assembled from the same source as the hypothesis, with the drift concealed by deliberate
+vocabulary-stripping. <em>Field: research methods.</em> <strong>Status: checked, occupied</strong> —
+construct underrepresentation and the substantive aspect of construct validity.
+<em>Residue, unchecked: decontextualisation destroying the signal that would reveal drift.</em></p>
+<h3>E4. A scored instrument for evaluating historical anticipation claims.</h3>
+<p>Four criteria
+plus calibration controls, for judging whether a pre-scientific intuition anticipated a
+later finding or is being read into it retrospectively. <em>Field: history and philosophy of
+science.</em> <strong>Status: checked, open after four searches.</strong> The field has a critique of
+precursorism and no scored instrument. <strong>Provenance of this item is uncertain and should be
+established before it is developed further.</strong></p>
+<hr>
+<h2>F. Directions raised and not yet formulated</h2>
+<h3>F1.</h3>
+<p>Whether a structured incubation-and-evaluation procedure run on unaided material
+and the same procedure run on machine-supplied material are distinct objects with distinct
+standing.</p>
+<h3>F3.</h3>
+<p>Whether deliberate incubation with system-scheduled return differs from spontaneous
+incubation. <em>Note 2026-08-15: the deliberate-burying-and-retrieval method described in
+practice is structurally posthypnotic suggestion; the checked material now sits at A13.
+F3 remains only for the non-suggestion case — ordinary incubation with a scheduled prompt.</em></p>
+<hr>
+<h2>G. Excluded, with what occupies them</h2>
+<p>Listed so the exclusion is auditable rather than assumed.</p>
+<table>
+<thead><tr><th>Direction</th><th>Occupied by</th></tr></thead>
+<tbody>
+<tr><td>Surrender, incubation, absorption, goal specificity, insight accuracy</td><td>Established literatures; sourced, not claimed</td></tr>
+<tr><td>Protections residing in arrangements rather than persons</td><td>Infrastructure invisibility (1996/1999); friction-as-protection in current AI commentary</td></tr>
+<tr><td>Credited-to-the-person confidence carried into a new arrangement</td><td>Automation deskilling lineage from 1983; residue is the never-had-it case</td></tr>
+<tr><td>Generator plus interpretive discipline as a structure</td><td>Standard anatomy of divination; AI-assisted version already academic</td></tr>
+<tr><td>Feedback-signal interception as a general diagnostic</td><td>Cybernetics</td></tr>
+<tr><td>Coupled-oscillator synchronisation as a model of collective human convergence</td><td>The mathematics is sound and the extension is not made by it. Excluded as an overreach of the same shape the anticipation-scoring rubric was built to detect. <strong>The measurable version is A11</strong></td></tr>
+<tr><td>Seeded-defect methodology for review evaluation</td><td>Error seeding and capture–recapture, software inspection</td></tr>
+<tr><td>First-person account of AI-facilitated altered state as a first known case</td><td>"Lost in Delusion" (arXiv 2606.00975), built on 40 real-world case reports; "Characterizing Delusional Spirals through Human-LLM Chat Logs" (arXiv 2603.16567); "Divination by Prompt" (arXiv 2606.12418) on LLMs used as oracles. <strong>The residue is not novelty — it is the null-condition hazard report at B10</strong></td></tr>
+</tbody></table>
+<hr>
+<h2>Rules for this register</h2>
+<ol>
+<li><strong>Every entry states the field that would evaluate it.</strong> An entry with no field does not
+belong here.</li>
+<li><strong>No entry uses private vocabulary.</strong> If a claim cannot be stated in the terms of its
+field, it is not ready for this register.</li>
+<li><strong>Status is set by a dated search, not by impression.</strong> One or two queries is
+<em>checked, open</em> — never <em>unoccupied</em>.</li>
+<li><strong>Entries leave.</strong> They graduate to <code>papers/</code> or <code>preregistrations/</code>, or they move to
+Section G with what occupies them. Nothing accumulates.</li>
+<li><strong>Occupied is not failure.</strong> Most directions will be occupied. The residue after a check
+is usually where the work is.</li>
+</ol>
+  </div>
+
+</div>
+</main>
+
+</body>
+</html>

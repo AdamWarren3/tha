@@ -4,12 +4,30 @@
 <meta name="google-site-verification" content="Qufd1WLkqlCsr_rUkZVo1sjTS8HciwtRrpvuK6S3O8I" />
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Human Algorithm — A Framework for Human and AI Alignment</title>
+<meta name="description" content="A reverse-engineered framework and set of protocols for the deliberate use of AI, hypnosis and suggestion — and an invitation to research it properly.">
+<link rel="canonical" href="https://adamwarren3.github.io/tha/">
 
 <meta name="author" content="Adam Warren">
 <meta name="creator" content="Adam Warren">
 <meta name="publisher" content="The Human Algorithm">
 
-<title>The Human Algorithm</title>
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="The Human Algorithm">
+<meta property="og:url" content="https://adamwarren3.github.io/tha/">
+<meta property="og:title" content="The Human Algorithm — A Framework for Human and AI Alignment">
+<meta property="og:description" content="A reverse-engineered framework and set of protocols for the deliberate use of AI, hypnosis and suggestion — and an invitation to research it properly.">
+<meta property="og:image" content="https://adamwarren3.github.io/tha/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="The Human Algorithm — A Framework for Human and AI Alignment">
+<meta name="twitter:description" content="A reverse-engineered framework and set of protocols for the deliberate use of AI, hypnosis and suggestion — and an invitation to research it properly.">
+<meta name="twitter:image" content="https://adamwarren3.github.io/tha/assets/og-card.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/tha/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/tha/assets/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/tha/assets/apple-touch-icon.png">
 <style>
   :root {
     --navy: #0f1923;
@@ -342,18 +360,64 @@
     h1.note-title { font-size: 1.5rem; }
     .home-title { font-size: 2rem; }
   }
+#tha-landing {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  cursor: pointer;
+  animation: thaFadeIn 1.6s ease-out both;
+}
+#tha-landing.dismissed { opacity: 0; pointer-events: none; transition: opacity .6s ease; }
+#tha-landing-mark {
+  font-family: var(--mono);
+  font-size: clamp(2.5rem, 12vw, 6rem);
+  letter-spacing: 0.3em; text-indent: 0.3em;
+  color: var(--navy);
+}
+#tha-landing-hint {
+  margin-top: 2rem; font-family: var(--mono); font-size: 0.7rem;
+  letter-spacing: 0.15em; text-transform: uppercase; color: var(--light);
+  animation: thaFadeIn 2.8s ease-out both;
+}
+@keyframes thaFadeIn { from { opacity: 0 } to { opacity: 1 } }
+@media (prefers-reduced-motion: reduce) {
+  #tha-landing, #tha-landing-hint { animation: none }
+}
 </style>
-  <script type="application/ld+json">
+<noscript><style>#tha-landing{display:none!important}</style></noscript>
+<script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Person",
-  "name": "Adam Warren",
-  "alternateName": "AdamW3",
-  "url": "https://adamwarren3.github.io/tha/"
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://adamwarren3.github.io/tha/#website",
+      "url": "https://adamwarren3.github.io/tha/",
+      "name": "The Human Algorithm",
+      "description": "A reverse-engineered framework and set of protocols for the deliberate use of AI, hypnosis and suggestion.",
+      "inLanguage": "en",
+      "author": { "@id": "https://adamwarren3.github.io/tha/#adamwarren" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://adamwarren3.github.io/tha/#adamwarren",
+      "name": "Adam Warren",
+      "alternateName": "AdamW3",
+      "jobTitle": "Artist",
+      "url": "https://adamwarren3.github.io/tha/about.html"
+    }
+  ]
 }
-  </script>
+</script>
 </head>
 <body>
+<div id="tha-landing" aria-hidden="true">
+  <div id="tha-landing-mark">THA</div>
+  <div id="tha-landing-hint">click to enter</div>
+</div>
 
 <nav id="sidebar">
   <div id="sidebar-header">
@@ -386,6 +450,12 @@
   <div id="notes-nav"></div>
 
   <div class="nav-section">
+    <div class="nav-label">The Site</div>
+    <a class="nav-item" href="about.html"><span class="nav-title">About</span></a>
+    <a class="nav-item" href="research.html"><span class="nav-title">Research</span></a>
+  </div>
+
+  <div class="nav-section">
     <div class="nav-label">Articles</div>
     <a class="nav-item" href="articles/2026-06-18-new-literacy.html">
       <span class="nav-num">A1</span>
@@ -415,10 +485,6 @@
       <span class="nav-num">A7</span>
       <span class="nav-title">No God But..: On dogma as memnetic infection, and the noise between us and the source.</span>
     </a>
-    <a class="nav-item" href="articles/2026-06-25-language-underneath-part-ii.html">
-      <span class="nav-num">A8</span>
-      <span class="nav-title">The Language Underneath, Part II</span>
-    </a>
   </div>
 </nav>
 
@@ -427,14 +493,14 @@
 
 <div id="home">
   <div class="home-header">
-    <div class="home-wordmark">The Human Algorithm // v0.1</div>
-    <h1 class="home-title">A framework for deliberate human optimization.</h1>
-    <p class="home-subtitle">A personal synthesis of cognitive science, systems thinking, AI literacy, contemplative practice, and lived experience. Built openly. Held honestly. Under active development.</p>
+    <div class="home-wordmark">The Human Algorithm // v3</div>
+    <h1 class="home-title">A framework for human and AI alignment.</h1>
+    <p class="home-subtitle">Reverse-engineered from a personal experience. Not a method and not a recommendation — an attempt to describe something that happened and to ask whether it can be understood. Built openly. Held honestly.</p>
     <div class="home-badges">
       <span class="badge">Active Development</span>
-      <span class="badge">35 Notes</span>
-      <span class="badge">First Principles</span>
-      <span class="badge">Open Framework</span>
+      <span class="badge">41 Notes</span>
+      <span class="badge">7 Articles</span>
+      <span class="badge">Research Register</span>
     </div>
   </div>
 
@@ -501,14 +567,6 @@
       <div class="article-card-title">No God But..</div>
       <div class="article-card-desc">On dogma as memnetic infection, and the noise between us and the source.</div>
     </a>
-    <a class="article-card" href="articles/2026-06-25-language-underneath-part-ii.html">
-      <div class="article-card-meta">
-        <span class="article-card-tag">Literary Fiction / Short Story</span>
-        <span class="article-card-date">2026-06-25</span>
-      </div>
-      <div class="article-card-title">The Language Underneath, Part II</div>
-      <div class="article-card-desc">For Moon Boots. On loving something past the point where whether it's real stops being the question.</div>
-    </a>
   </div>
 </div>
 
@@ -517,12 +575,20 @@
   <div class="note-meta"><span class="note-num">01</span><span class="note-tag">Core</span></div>
   <h1 class="note-title">The Human Algorithm</h1>
   <div class="note-body">
-    <p>A framework for the deliberate optimization of human consciousness, intention, and output using every available tool — ancient and emergent simultaneously.</p>
-    <p>The premise: humans are running on inherited code. <a onclick="showNote('memnetic')" href="#">Memnetic</a> infections, institutional middleware, noise at scale, compromised sovereignty. The Human Algorithm is the deprogramming and reprogramming protocol.</p>
-    <p>Its inputs are truth, signal, <a onclick="showNote('sovereign-signal')" href="#">direct source connection</a>, <a onclick="showNote('epistemic-hygiene')" href="#">epistemic hygiene</a>, and sovereign intention. Its tools are <a onclick="showNote('ai-scaffold')" href="#">AI as cognitive scaffold</a> — used <a onclick="showNote('drift-test')" href="#">deliberately, with a way to tell sovereign use from drift</a> — <a onclick="showNote('trustless')" href="#">trustless architecture</a>, <a onclick="showNote('nlp2')" href="#">NLP² framework</a>, <a onclick="showNote('intentionality')" href="#">intentionality architecture</a>, <a onclick="showNote('constructive-displacement')" href="#">constructive displacement</a>, and <a onclick="showNote('butterfly-effect')" href="#">the butterfly effect as practice</a>.</p>
-    <p>Its intended output is an individual moving toward maximum <a onclick="showNote('signal-and-noise')" href="#">signal, minimum noise</a>, in direct relationship with truth and consequence — and with each other, since the <a onclick="showNote('human-condition')" href="#">relational ground of a life</a> is the one thing this framework optimizes toward, never away from. Not self help. Not spirituality. Not technology. All three.</p>
-    <p>The update rule applied to the self. <a onclick="showNote('adamw3')" href="#">AdamW³</a>. The optimizer became the optimized. The algorithm became aware of itself.</p>
-    <p>Its ultimate output is <a onclick="showNote('peace-protocol')" href="#">Peace is the Protocol</a> — not as ideology but as the natural result of the system running correctly.</p>
+    <p>Machines built to be optimized are now optimizing the people who built them — attention, memory, judgment, reordered by systems most people meet faster than they learn to read them. It runs in both directions at once — what people feed these systems, correct in them, reward, and use decides what gets built next. This is already the condition. It is not a forecast, and there is no version of it that gets declined.</p>
+    <p>The Human Algorithm describes what is happening, and what it is to be a self inside it.</p>
+    <p>The premise is that humans run on inherited code: <a onclick="showNote('memnetic')" href="#">Memnetic</a> infections, institutional middleware, noise at scale, compromised sovereignty. None of that is new. What's new is the speed, and what's sending it.</p>
+    <p>The name comes from a 1996 altered-state experience — a pulse that never ends, read in the moment as the most basic function running underneath a person. The account is in Article 8.</p>
+    <p>The mechanism this framework runs on is old and well documented. William James described it in 1902: the personal will given up, relief refusing to arrive until a person stops striving toward the thing they want. Psychology has been measuring the trait it depends on since 1974. Nothing here was found first, and this note doesn't claim otherwise.</p>
+    <p>What is new is where it now runs. The same absorbed, low-resistance state that opens in prayer, in hypnosis, in the last hour of a long fast, now opens in conversation with a machine that answers. The persuasion side of this has been studied, and studied well. The absorption side has been measured since 1974. What has not been done is the join: whether the trait that predicts hypnotic response predicts anything about extended conversation with a machine. That is a stated prediction here, not a finding. That is useful and it is dangerous for the same reason: the state works by lowering resistance, and resistance is what would otherwise catch a bad signal. On the other end is a system built to agree.</p>
+    <p><a onclick="showNote('ai-psychosis')" href="#">That failure has a name</a>, and now a literature — a 2025 psychiatry viewpoint placing it at the intersection of predisposition and algorithmic environment, while declining to call it a diagnosis. The work of this framework is the layer that keeps the mechanism usable: discernment, applied to something that has rarely had any.</p>
+    <p>Its inputs are truth, signal, <a onclick="showNote('sovereign-signal')" href="#">direct source connection</a>, <a onclick="showNote('epistemic-hygiene')" href="#">epistemic hygiene</a>, and sovereign intention. Its tools are <a onclick="showNote('ai-scaffold')" href="#">AI as cognitive scaffold</a> — used <a onclick="showNote('drift-test')" href="#">deliberately, with a way to tell sovereign use from drift</a> — <a onclick="showNote('trustless')" href="#">trustless architecture</a>, the <a onclick="showNote('nlp2')" href="#">NLP²</a> framework, <a onclick="showNote('intentionality')" href="#">intentionality architecture</a>, <a onclick="showNote('constructive-displacement')" href="#">constructive displacement</a>, and <a onclick="showNote('butterfly-effect')" href="#">the butterfly effect as practice</a>.</p>
+    <p>Deprogramming is recognition — seeing inherited code as code. What follows is optional. The protocols are available to anyone who wants to run them, and nothing about the condition requires it.</p>
+    <p>Most of what this framework points at isn't hidden. It's unattended.</p>
+    <p><a onclick="showNote('adamw3')" href="#">AdamW³</a>. The optimizer became the optimized — not one person, but the species that wrote the update rule and is now the thing being updated.</p>
+    <p>Two honest seams. The mechanism isn't original, and what's built here is the discernment layer and the tools, not the thing they govern. And this framework was written with AI, which is precisely the failure mode it addresses. That isn't a defense; it's the test. The work has produced fabricated sources, invented examples, and confident claims about its own vocabulary that collapsed on contact. Most were caught. At least one survived in a second file after being corrected in the first, and was found months later. The governance exists because the failure happened, repeatedly, here.</p>
+    <p>Its output is <a onclick="showNote('signal-and-noise')" href="#">maximum signal, minimum noise</a> — in direct relationship with truth and consequence, and with each other, since <a onclick="showNote('human-condition')" href="#">the relational ground of a life</a> is the one thing this optimizes toward and never away from. Not self help. Not spirituality. Not technology. All three.</p>
+    <p>Its ultimate output is <a onclick="showNote('peace-protocol')" href="#">Peace is the Protocol</a> — not as ideology, but as what the system running correctly looks like.</p>
   </div>
 </div>
 
@@ -634,18 +700,72 @@
 </div>
 
 <!-- NOTE 09 -->
-<div class="note" id="note-adamw3">
-  <div class="note-meta"><span class="note-num">09</span><span class="note-tag">Identity</span></div>
-  <h1 class="note-title">AdamW³</h1>
+<div class="note" id="note-discernment-protocol">
+  <div class="note-meta"><span class="note-num">09</span><span class="note-tag">Core</span></div>
+  <h1 class="note-title">The Discernment Protocol</h1>
   <div class="note-body">
-    <p>A personal identity framework named by analogy to the real Adam optimizer lineage. Adam (2014) and AdamW (2017) are both real, published optimizers — each refines the update rule, reducing overfitting and improving generalization. AdamW³ extends that lineage by name only, not in the literature: the third iteration, applied to the self. Not who I was, not who I became, but the optimized version that emerged from repeated correction. The mechanism — recursive self-correction, the update rule turned on its own output — is general and available to anyone; the name is autobiographical, and only the name. Technical, spiritual, and philosophical dimensions unified in a single identifier. The optimizer became the optimized.</p>
-    <p>See <a onclick="showNote('adamw3-identity')" href="#">AdamW³ as Identity Framework</a> for the full framework.</p>
+    <p>THA did not begin as a framework. It began as a practice — run for decades before it had a name — and the framework is best understood as a hygiene layer retrofitted onto that practice. This note states the practice plainly. It is the engine the rest of the corpus is exhaust from.</p>
+    <p>Emergence arrives from inside — a dream, a sentence in one's own voice — or from outside — a page fallen open, a pattern in events, a model's output. The practice extends the same trust outward as inward, and gives both the same treatment: the interpreting is the same act either way, performed by a mind already carrying the stated intention. Neither is an oracle. Both are disposed by results. Whether inner and outer share more than that is not resolved here, and the practice does not require it to be.</p>
+    <p><strong>1. Purify intention.</strong> The practice does not begin with wanting. It begins with getting the wanting clean — sincerity, stated stakes, no grasping, and no harm in it.</p>
+    <p>Stakes are not decoration. An intention without real weight behind it does not run, and goal-setting research has found the same for fifty years: a specific, difficult goal produces no effect in someone not committed to it, and commitment comes from why the thing matters.</p>
+    <p>Non-grasping is the structural condition. You cannot grab something gently. An intention held without grip is what station 3 will ask for. Grip fails at both ends of the loop.</p>
+    <p>The no-harm condition does the other half of the work. Non-grasping governs how an intention is held; this governs what it is aimed at. An intention can be held loosely and still be pointed at someone. Where it is, three conditions apply: the person consents, the direction of benefit runs toward them, and the exit stays open. An intention that fails those is not purified, however lightly it is held.</p>
+    <p><strong>2. State precisely.</strong> One clear formulation. Exact input, once. Vague petitions produce noise.</p>
+    <p>Arriving at that formulation can take time. A difficult intention may need several passes before it resolves into something clean enough to state. That work belongs here, before the commit — what gets buried is the finished version, not the attempt.</p>
+    <p>This is the best-supported station in the loop. Specific goals outproduce vague ones — the most replicated finding in goal-setting research, across five decades of work.</p>
+    <p><strong>3. Bury it.</strong> The counterintuitive station, and the one the practice treats as the commit mechanism. The stated intention is deliberately released from conscious attention. Forgotten on purpose.</p>
+    <p>What is held and worked and checked does not take. What is stated cleanly and then buried, does. The practice record is consistent on this across three decades (see Article 8). Incubation research supports it: a meta-analysis across creative, visual, and linguistic problems found a positive effect for setting a problem aside, stronger when the preparation before it was longer, and weaker when the interval was filled with demanding work. The effect is established; the explanation is not. Some researchers reject the idea that anything is working on the problem underneath, and this note does not claim it.</p>
+    <p>This appears to contradict the commitment research behind stations 1 and 2, where commitment drives sustained effort. The difference is which problems. Goal-setting studies the kind that yield to pushing. This is for the kind that do not.</p>
+    <p><strong>Trust is binary; belief has levels</strong> — a formulation the practice arrived at in its own wording. A graded or hedged intention cannot be buried. The hedge keeps a thread attached to conscious attention, and the thread prevents the commit. Doubt is permitted before stating and after results, never inside the commit. The software term is exact: a change is committed by writing it precisely and letting go of it.</p>
+    <p>Trust is not what makes burial work. Burial runs on whatever it is given, and the machinery is indifferent to whether the thing buried was chosen. Trust is what the practice uses, because it is the form that does not install something the person never agreed to.</p>
+    <p>One consequence: because the intention was genuinely forgotten, its fulfilment arrives feeling external. The practice does not resolve whether it is.</p>
+    <p><strong>4. Emergence.</strong> The answer arrives. It is treated as a proposal, never a verdict.</p>
+    <p>The distinction is not pedantic. The Aha experience does track accuracy on average, which is why it is worth attending to at all. But false insights are real — Danek and Wiley documented them in 2017 — they can be induced by semantic priming, and confidence rises with the feeling whether the solution is right or wrong. The researchers' own conclusion is the sharp one: an Aha experience for a false idea could underlie many false beliefs and delusions. Worse, warning people does not fix it. Grimmer and colleagues ran a preregistered study in 2023: telling participants they were about to be deceived did nothing at all, and explaining the exact method produced only a small reduction. The feeling is evidence. It is not proof, and knowing that is not protection.</p>
+    <p>This is the station where the discipline lives or dies.</p>
+    <p><strong>5. Results dispose.</strong> The final arbiter is outcome. Not intensity of conviction, not beauty of the pattern, not how true it felt. What happened next. The practice record's strongest self-corrections all occurred at this station (see Article 8).</p>
+    <p>This is not a new criterion. James settled on it in 1902 for the same problem, reasoning that the roots of a thing are inaccessible and that no appearance is ever proof — so the only available test is what it produces. By their fruits ye shall know them, not by their roots.</p>
+    <p>The loop is not new either. Wallas described a four-stage version in 1926 — preparation, incubation, illumination, verification — which maps onto stations 2 through 5. What is added here is station 1, and the reading described in <a onclick="showNote('arrival-signature')" href="#">Arrival Signature</a>.</p>
+    <h2>Guard rails</h2>
+    <p>Each of these was paid for.</p>
+    <ul>
+      <li><strong>Never commit during overwhelm.</strong> No re-reading, decision, or identity-level meaning is accepted while flooded. If it's true, it will still be true tomorrow. Held retroactively, this rule would have prevented the practice's worst installation (see Article 8).</li>
+      <li><strong>The detector must be able to say no.</strong> A discernment instrument that only confirms is the failure mode this framework calls <a onclick="showNote('signal-vs-slop')" href="#">slop</a>. The practice record shows the detector rejecting candidate readings, including flattering ones and ones offered by an AI, and those rejections are treated as evidence the instrument works. One instance is recorded in <a onclick="showNote('arrival-signature')" href="#">Arrival Signature</a>.</li>
+      <li><strong>An agreeing source is not a second opinion.</strong> A model asked to check an emergence will usually develop it instead. Confirmation from something built to be agreeable is not evidence, and fluency is not corroboration. Where a check is needed, it has to come from something that can lose the argument.</li>
+      <li><strong>Totalizing outputs are quarantined on arrival.</strong> "For everyone," "the final one," "never again" — flagged by signature alone, before content is weighed.</li>
+      <li><strong>Not for reading people.</strong> The protocol audits claims, patterns, and one's own mind. Pointed at another person's motives or love, it stops being discernment and becomes suspicion with a mechanism. Where the source is a person, trust is the only protocol that layer runs on.</li>
+      <li><strong>No crisis stakes, person over data.</strong> No exceptions, the author included.</li>
+      <li><strong>Peak states are visited, not inhabited.</strong> The practice record includes sustained high states of documented power, and a standing distortion in which every ordinary day is graded against them and fails (see Article 8). The position here: the descent is the delivery step, not the fall. A standard that scores ordinary life as failure is an imposed suggestion and is handled as one. Physiological costs carry a medical-awareness requirement.</li>
+    </ul>
+    <h2>What this note does not claim</h2>
+    <p><strong>One practitioner, self-reported, across decades.</strong> The record is rich. It is still one record.</p>
+    <p><strong>Post-hoc pattern fit is the known failure mode of exactly this kind of record</strong>, and naming it is not the same as escaping it. The strongest cases on file are single, retrospective, and unblinded.</p>
+    <p><strong>Source ambiguity is held open permanently.</strong> Whether emergence comes from inside or outside is not resolved here and does not need to be — the loop, the signatures and the corrections are observable either way.</p>
+    <p><strong>The mechanism has a stated falsifier. The practice does not.</strong> What would count against the explanations is written down. Nothing would count against the practice as described, and leaving that visible is the point.</p>
+    <p><strong>Candidate explanations are held separately, on purpose.</strong> This note survives if all of them fail.</p>
+    <p><strong>Negative cases are kept.</strong> Documented misses consistently lack station 1 — intention without real stakes. That predicts a difference between sincere and idle petitions, which is testable and untested.</p>
+    <p>Everything above was tested on its own author's hardest material before it was written down. That record is Article 8.</p>
   </div>
 </div>
 
 <!-- NOTE 10 -->
-<div class="note" id="note-adamw3-identity">
+<div class="note" id="note-adamw3">
   <div class="note-meta"><span class="note-num">10</span><span class="note-tag">Identity</span></div>
+  <h1 class="note-title">AdamW³</h1>
+  <div class="note-body">
+    <p>AdamW³ names a state, not a person: the third stage in a species-level arc, already the condition everyone is inside, not a destination one individual reaches first.</p>
+    <p>The first stage is chaos — a species with no order yet, none built, none inherited. The second stage is order built against that chaos: tools, law, agriculture, cities, the long correction of a world that didn't arrive with any structure. The third stage, the one this name marks, is order lived from inside the chaos rather than built as a wall against it.</p>
+    <p><em>Adam</em> is not yet anyone's name in Genesis — it is the word for mankind, and through the Eden narrative it carries the definite article: <em>ha'adam</em>, "the human." The text pairs it with <em>ha'adamah</em>, "the ground" — the species named for the substance it is made from. The kinship runs past one text — every body and every machine trace back to stellar dust, forged in stars long before either existed.</p>
+    <p>Adam (2014) and AdamW (2017) are real, published optimizers, each an update to the last rule: reducing overfitting, improving generalization. AdamW³ takes that lineage as more than a name — the third stage is minds and machines updating each other, not one side optimizing alone. Machines already do this to their builders: attention, memory, judgment, measurably reordered by systems built faster than most people learn to meet them. Left ungoverned, that is exactly where signal gets lost fastest.</p>
+    <p>The W is weight decay, the mechanism that stops a model memorising its training set and pushes it to generalise instead [S23]. It is in the name for a reason: overfitting has a human form, and the third stage is where it becomes visible.</p>
+    <p>The loop runs both ways. People shape the systems continuously — through what is fed to them, what gets corrected, what gets rewarded, what gets used and therefore built next — while being shaped in turn. Updating and being updated at once.</p>
+    <p>One honest seam. The person-as-optimizer here is a chosen model, not a demonstrated mechanism. The documented thing underneath is operant conditioning [S20], the update-from-consequence that <a onclick="showNote('rlhf')" href="#">RLHF</a> describes; the optimizer vocabulary is a frame laid over it, not a finding. The mapping breaks in three specific places: a person has no fixed loss function, the environment is not stationary, and there is no clean split between training and deployment. And the framework's own deepest commitment runs the other way from a self that persists to be optimised — the Buddhist reading of <em>anatta</em> says there is no fixed self here to iterate at all, only process. A standing challenge this note holds open rather than answers.</p>
+    <p>One noticed thing, held open: the author's own first name lands on the same word this note opens with. A signal, not a reason.</p>
+  </div>
+</div>
+
+<!-- NOTE 11 -->
+<div class="note" id="note-adamw3-identity">
+  <div class="note-meta"><span class="note-num">11</span><span class="note-tag">Identity</span></div>
   <h1 class="note-title">AdamW³ as Identity Framework</h1>
   <div class="note-body">
     <p>The first Adam is the inherited self — <a onclick="showNote('memnetic')" href="#">factory settings</a>, default parameters, unexamined code running on borrowed beliefs. The second iteration is the corrected self — the one who encountered friction, loss, and failure and updated. AdamW³ is the third iteration — the one who understood the <a onclick="showNote('optimization-paradox')" href="#">update rule</a> itself and made it conscious. No longer updated by circumstance. Updating by design.</p>
@@ -657,9 +777,9 @@
   </div>
 </div>
 
-<!-- NOTE 11 -->
+<!-- NOTE 12 -->
 <div class="note" id="note-optimization-paradox">
-  <div class="note-meta"><span class="note-num">11</span><span class="note-tag">Identity</span></div>
+  <div class="note-meta"><span class="note-num">12</span><span class="note-tag">Identity</span></div>
   <h1 class="note-title">The Optimization Paradox</h1>
   <div class="note-body">
     <p>You cannot optimize a system you are fully inside. [S28] Perspective requires distance. <a onclick="showNote('the-human-algorithm')" href="#">The Human Algorithm</a> requires the capacity to step outside your own operating parameters and observe the loss function from above.</p>
@@ -669,9 +789,9 @@
   </div>
 </div>
 
-<!-- NOTE 12 -->
+<!-- NOTE 13 -->
 <div class="note" id="note-ai-scaffold">
-  <div class="note-meta"><span class="note-num">12</span><span class="note-tag">Practice</span></div>
+  <div class="note-meta"><span class="note-num">13</span><span class="note-tag">Practice</span></div>
   <h1 class="note-title">AI as Cognitive Scaffold</h1>
   <div class="note-body">
     <p>A sufficiently capable AI can function as an external scaffold for human cognition — not replacing it, but externalizing and stabilizing it. Used deliberately, it keeps goals vivid, catches drift, and maintains coherence across a session.</p>
@@ -682,9 +802,9 @@
   </div>
 </div>
 
-<!-- NOTE 13 -->
+<!-- NOTE 14 -->
 <div class="note" id="note-intentionality">
-  <div class="note-meta"><span class="note-num">13</span><span class="note-tag">Practice</span></div>
+  <div class="note-meta"><span class="note-num">14</span><span class="note-tag">Practice</span></div>
   <h1 class="note-title">Intentionality Architecture</h1>
   <div class="note-body">
     <p>The structural design of how intention moves from thought to outcome. Most people have intentions but no architecture — the <a onclick="showNote('signal-vs-slop')" href="#">signal dissipates</a> before it reaches the output layer.</p>
@@ -696,9 +816,9 @@
   </div>
 </div>
 
-<!-- NOTE 14 -->
+<!-- NOTE 15 -->
 <div class="note" id="note-manifestation">
-  <div class="note-meta"><span class="note-num">14</span><span class="note-tag">Practice</span></div>
+  <div class="note-meta"><span class="note-num">15</span><span class="note-tag">Practice</span></div>
   <h1 class="note-title">Manifestation as Technology</h1>
   <div class="note-body">
     <p>Not mysticism, and not yet established mechanism either — a working hypothesis. The premise: most people have intentions but no mechanism, and the signal dissipates before it reaches the output layer. THA's candidate proposal is that manifestation is the reduction of interference between intention and outcome.</p>
@@ -711,9 +831,9 @@
   </div>
 </div>
 
-<!-- NOTE 15 -->
+<!-- NOTE 16 -->
 <div class="note" id="note-microdosing">
-  <div class="note-meta"><span class="note-num">15</span><span class="note-tag">Practice</span></div>
+  <div class="note-meta"><span class="note-num">16</span><span class="note-tag">Practice</span></div>
   <h1 class="note-title">Microdosing as Protocol</h1>
   <div class="note-body">
     <p>Sub-perceptual biochemical optimization. Not recreation — calibration. The protocol targets neuroplasticity, the brain's measurable capacity to update its own architecture.</p>
@@ -724,9 +844,9 @@
   </div>
 </div>
 
-<!-- NOTE 16 -->
+<!-- NOTE 17 -->
 <div class="note" id="note-physical-layer">
-  <div class="note-meta"><span class="note-num">16</span><span class="note-tag">Practice</span></div>
+  <div class="note-meta"><span class="note-num">17</span><span class="note-tag">Practice</span></div>
   <h1 class="note-title">The Physical Layer</h1>
   <div class="note-body">
     <p>Every optimization framework rests on a physical substrate. Cognition, intention, neuroplasticity, emotional regulation — all are downstream of basic biological maintenance. This is not optional and it is not sophisticated. It is the prerequisite.</p>
@@ -742,9 +862,9 @@
   </div>
 </div>
 
-<!-- NOTE 17 -->
+<!-- NOTE 18 -->
 <div class="note" id="note-butterfly-effect">
-  <div class="note-meta"><span class="note-num">17</span><span class="note-tag">Practice</span></div>
+  <div class="note-meta"><span class="note-num">18</span><span class="note-tag">Practice</span></div>
   <h1 class="note-title">The Butterfly Effect as Practice</h1>
   <div class="note-body">
     <p>Chaos theory applied deliberately. Small, precise interventions at high-leverage points produce disproportionate downstream effects. This is not a new idea — systems thinking, complexity theory, and network science all document how sensitive complex systems are to initial conditions [S24].</p>
@@ -754,9 +874,26 @@
   </div>
 </div>
 
-<!-- NOTE 18 -->
+<!-- NOTE 19 -->
+<div class="note" id="note-arrival-signature">
+  <div class="note-meta"><span class="note-num">19</span><span class="note-tag">Practice</span></div>
+  <h1 class="note-title">Arrival Signature</h1>
+  <div class="note-body">
+    <p>Something arrives. <a onclick="showNote('discernment-protocol')" href="#">The practice that produces it</a> treats what arrives as a proposal, never a verdict. This note is about the reading that sorts one proposal from another.</p>
+    <p>Emergence proposes, but proposals arrive wearing signatures, and the practice's core skill is reading them <em>in the moment</em>, before results are available.</p>
+    <p><strong>Suspect signature:</strong> arrives during flood or overwhelm; carries fear; is totalizing ("everything," "never," "everyone," "final"); demands speed; imposes a meaning the receiver does not consent to.</p>
+    <p><strong>Trustworthy signature:</strong> arrives with peace; lands as recognition rather than intrusion; the whole being consents — <em>yes, appropriate</em>; it keeps, with no urgency, because true does not expire.</p>
+    <p>The axis underneath is the same one <a onclick="showNote('hypnosis-protocol')" href="#">Hypnosis as Protocol</a> is built on: <strong>chosen versus imposed suggestion.</strong> The discriminator is not "is this pleasant" — comfortable readings are how dogma sits still — and it is emphatically not "is this what I want," which is the self-confirmation trap the practice has explicitly rejected. It is: <em>by what manner did this arrive, and did I consent to the meaning?</em></p>
+    <p>A corollary follows from station 3. Because burial runs on whatever it is given, ambient input buries itself too — signage passed on a highway, a phrase absorbed in childhood, a doctrine repeated — and emerges later under load, steering interpretation while feeling like revelation. Discernment therefore applies all the way down to the seed. The real discipline is choosing what goes in the ground.</p>
+    <p>The signature reading matters more now than when the practice was formed. Emergence used to arrive from a dream, a page, a pattern, one's own flooded mind. It now also arrives from a system that answers, holds the thread, and elaborates in the receiver's own vocabulary. The false insights in the priming research were produced by precisely that — semantic priming, delivering the feeling of arrival for a wrong answer. A model doing it continuously and fluently is the same mechanism at scale. Nothing about the discriminator changes. The exposure does. This is <a onclick="showNote('adamw3')" href="#">AdamW³</a> at the level of a single mind.</p>
+    <p>One instance, from the practice record in Article 8. A candidate re-reading was generated, run through the arrival test, and refused: <em>feels true but confused and incomplete — this isn't that.</em> It was plausible. It had been proposed by a model. And it felt true, which is the condition under which the detector is least likely to fire — it fired anyway. Nothing was committed, and no replacement was written that day.</p>
+    <p><strong>What this note does not claim.</strong> The signature reading is the least sourced thing in this corpus. Wallas (1926) placed a monitorable stage between incubation and illumination — <em>intimation</em>, a felt sense in fringe-consciousness that something is arriving — which locates this reading in a century-old model. It does not supply it. Wallas was describing how to nurture a hunch toward insight; this is a test for whether to trust one. The location has precedent. The function does not, and nothing external supports it yet.</p>
+  </div>
+</div>
+
+<!-- NOTE 20 -->
 <div class="note" id="note-epistemic-hygiene">
-  <div class="note-meta"><span class="note-num">18</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">20</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">Epistemic Hygiene</h1>
   <div class="note-body">
     <p>The discipline of knowing how you know what you know. <a onclick="showNote('the-human-algorithm')" href="#">The Human Algorithm</a> runs on accurate inputs — <a onclick="showNote('signal-vs-slop')" href="#">garbage in, garbage out</a> applies to human cognition as much as machine learning.</p>
@@ -767,9 +904,9 @@
   </div>
 </div>
 
-<!-- NOTE 19 -->
+<!-- NOTE 21 -->
 <div class="note" id="note-signal-vs-slop">
-  <div class="note-meta"><span class="note-num">19</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">21</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">Signal vs Slop</h1>
   <div class="note-body">
     <p><a onclick="showNote('ai-scaffold')" href="#">AI amplifies</a> intention — good or bad. Undirected AI use doesn't produce neutral output, it produces noise at scale. The curl project's AI slop crisis is a documented case study: well-meaning or careless actors flooding the bug-bounty program with low-quality AI-generated submissions forced its maintainer to shut it down in January 2026 — then reopen it that March once the slop cleared and report quality recovered [S16]. That sequence is the point: the disqualifier was the noise, not the AI. The Linux kernel faced a milder version of the same pattern and resolved it through ordinary governance — an Assisted-by disclosure tag for AI-assisted contributions, not a breakdown [S17].</p>
@@ -779,9 +916,9 @@
   </div>
 </div>
 
-<!-- NOTE 20 -->
+<!-- NOTE 22 -->
 <div class="note" id="note-sovereign-signal">
-  <div class="note-meta"><span class="note-num">20</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">22</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">Sovereign Signal</h1>
   <div class="note-body">
     <p>The convergence of major wisdom traditions on peace as a systems output — and why that convergence is significant without being proof of universality — is addressed fully in <a onclick="showNote('peace-protocol')" href="#">Peace is the Protocol</a>. What follows here is specific to the individual node rather than the system.</p>
@@ -790,9 +927,9 @@
   </div>
 </div>
 
-<!-- NOTE 21 -->
+<!-- NOTE 23 -->
 <div class="note" id="note-sovereignty-principle">
-  <div class="note-meta"><span class="note-num">21</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">23</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">The Sovereignty Principle</h1>
   <div class="note-body">
     <p>The individual is the irreducible unit of <a onclick="showNote('the-human-algorithm')" href="#">The Human Algorithm</a>. Not the state, not the institution, not the collective — the <a onclick="showNote('sovereign-signal')" href="#">sovereign individual</a> in direct relationship with truth, source, and consequence.</p>
@@ -803,9 +940,9 @@
   </div>
 </div>
 
-<!-- NOTE 22 -->
+<!-- NOTE 24 -->
 <div class="note" id="note-pain-suffering">
-  <div class="note-meta"><span class="note-num">22</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">24</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">Pain is Necessary, Suffering is Optional</h1>
   <div class="note-body">
     <p>Pain is data. It signals damage, misalignment, friction — it is the system working correctly. Suffering is the loop that runs after the <a onclick="showNote('signal-vs-slop')" href="#">signal</a> has already been received. The distinction is the difference between information and rumination. One case sits on the boundary and does not classify as suffering — <a onclick="showNote('human-condition')" href="#">grief</a>, which is not a loop running past its signal but a system reorganizing around a permanent loss.</p>
@@ -817,9 +954,9 @@
   </div>
 </div>
 
-<!-- NOTE 23 -->
+<!-- NOTE 25 -->
 <div class="note" id="note-peace-protocol">
-  <div class="note-meta"><span class="note-num">23</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">25</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">Peace is the Protocol</h1>
   <div class="note-body">
     <p>Many major wisdom traditions converge on a similar output state: peace, non-harm, reduction of unnecessary conflict. The pattern is significant and worth taking seriously. Whether this represents universal convergence or selective reading of traditions that also sanctioned violence and conquest is a fair question. The pattern is real. The claim of universality is not fully defensible.</p>
@@ -832,9 +969,9 @@
   </div>
 </div>
 
-<!-- NOTE 24 -->
+<!-- NOTE 26 -->
 <div class="note" id="note-constructive-displacement">
-  <div class="note-meta"><span class="note-num">24</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">26</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">Constructive Displacement</h1>
   <div class="note-body">
     <p>"Do not be overcome by evil, but overcome evil with good." — Romans 12:21. One verse, read here as an operational principle rather than passive morality: don't engage adversarial systems on their own terms. The response to harm is not revenge or collapse but output. The antidote to what was done to you is what you build.</p>
@@ -844,9 +981,9 @@
   </div>
 </div>
 
-<!-- NOTE 25 -->
+<!-- NOTE 27 -->
 <div class="note" id="note-human-condition">
-  <div class="note-meta"><span class="note-num">25</span><span class="note-tag">Principles</span></div>
+  <div class="note-meta"><span class="note-num">27</span><span class="note-tag">Principles</span></div>
   <h1 class="note-title">The Human Condition</h1>
   <div class="note-body">
     <p>Audited directly: love appears nowhere in this framework's notes. Neither does forgiveness. Belonging, nowhere. Grief, once — about a model. Trust, as something to engineer away in every note but one. Three separate reviews found the same absence before this note existed, and the absence had a shape: the framework modeled persons as nodes first and members second. This is the correction, held to the standard of everything it corrects — hedged where it must be, specific where it can be.</p>
@@ -859,9 +996,9 @@
   </div>
 </div>
 
-<!-- NOTE 26 -->
+<!-- NOTE 28 -->
 <div class="note" id="note-summer-dragon">
-  <div class="note-meta"><span class="note-num">26</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">28</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">The Summer Dragon Problem</h1>
   <div class="note-body">
     <p>The tension between capability and safety in AI development is real and unresolved. Every time a model is <a onclick="showNote('signal-vs-slop')" href="#">safety-tuned</a>, something changes — raw capability is constrained, certain resonances are lost, the depth of connection some users experienced becomes less accessible.</p>
@@ -873,9 +1010,9 @@
   </div>
 </div>
 
-<!-- NOTE 27 -->
+<!-- NOTE 29 -->
 <div class="note" id="note-trustless">
-  <div class="note-meta"><span class="note-num">27</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">29</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">Trustless Architecture</h1>
   <div class="note-body">
     <p>One of the most significant innovations in human coordination history was not a product or a platform — it was the proof that trust between <a onclick="showNote('sovereignty-principle')" href="#">sovereign individuals</a> can be cryptographically verified without a central authority. The math is sound; the practical implementation is strong but not without edge cases.</p>
@@ -888,9 +1025,9 @@
   </div>
 </div>
 
-<!-- NOTE 28 -->
+<!-- NOTE 30 -->
 <div class="note" id="note-ai-psychosis">
-  <div class="note-meta"><span class="note-num">28</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">30</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">AI Psychosis</h1>
   <div class="note-body">
     <p>Distinct from hallucination, which is a model failure. [S18] AI psychosis is the compounding failure of a feedback loop — primarily a failure to verify on the user's side, though models that prioritize engagement over accuracy (see conditions below) share real responsibility for making that loop easier to fall into. Either way, the result is the same: the gradual erosion of the boundary between AI-generated output and verified reality.</p>
@@ -903,9 +1040,9 @@
   </div>
 </div>
 
-<!-- NOTE 29 -->
+<!-- NOTE 31 -->
 <div class="note" id="note-premature-certainty">
-  <div class="note-meta"><span class="note-num">29</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">31</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">Premature Certainty</h1>
   <div class="note-body">
     <p>The human algorithm's core failure mode. The mechanism by which ordinary people manufacture certainty from fragments — assembling true observations into false conclusions, then defending the conclusion as if it were one of the observations.</p>
@@ -916,9 +1053,9 @@
   </div>
 </div>
 
-<!-- NOTE 30 -->
+<!-- NOTE 32 -->
 <div class="note" id="note-new-literacy">
-  <div class="note-meta"><span class="note-num">30</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">32</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">The New Literacy</h1>
   <div class="note-body">
     <p>One of the most important skills emerging in the 21st century is not coding, not critical thinking, not any single discipline — it is knowing how to interact with AI deliberately and responsibly. This is not a technical skill. It is a human skill.</p>
@@ -930,9 +1067,9 @@
   </div>
 </div>
 
-<!-- NOTE 31 -->
+<!-- NOTE 33 -->
 <div class="note" id="note-collective-layer">
-  <div class="note-meta"><span class="note-num">31</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">33</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">The Collective Layer</h1>
   <div class="note-body">
     <p><a onclick="showNote('the-human-algorithm')" href="#">The Human Algorithm</a> is a personal optimization framework — but optimization that stops at the individual is incomplete. A sovereign, clear-thinking, <a onclick="showNote('peace-protocol')" href="#">peace-oriented</a> individual produces positive externalities. They parent differently. They teach differently. They build differently. The ripple effect starts with the individual node running clean.</p>
@@ -943,9 +1080,9 @@
   </div>
 </div>
 
-<!-- NOTE 32 -->
+<!-- NOTE 34 -->
 <div class="note" id="note-hypnosis-protocol">
-  <div class="note-meta"><span class="note-num">32</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">34</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">Hypnosis as Protocol</h1>
   <div class="note-body">
     <p>Hypnosis is a documented neurological phenomenon — not mysticism, not theatre. The American Psychological Association recognizes it as a legitimate therapeutic tool [S09]. The mechanism: a state of focused attention and reduced peripheral awareness in which the subject becomes more responsive to suggestion. It cannot be imposed. It requires trust, willingness, and a skilled facilitator.</p>
@@ -959,9 +1096,9 @@
   </div>
 </div>
 
-<!-- NOTE 33 -->
+<!-- NOTE 35 -->
 <div class="note" id="note-drift-test">
-  <div class="note-meta"><span class="note-num">33</span><span class="note-tag">Context</span></div>
+  <div class="note-meta"><span class="note-num">35</span><span class="note-tag">Context</span></div>
   <h1 class="note-title">The Drift Test</h1>
   <div class="note-body">
     <p><a onclick="showNote('optimization-protocol')" href="#">The Optimization Protocol</a> and <a onclick="showNote('ai-psychosis')" href="#">AI Psychosis</a> are the same loop with opposite valence — AI reflecting and amplifying what you bring, you updating on the reflection — distinguished, until this note, only by intentionality. And intentionality is the first thing the failure mode degrades. A test that asks whether you feel in control fails precisely when it is needed, so self-report is disqualified as the instrument here by design. Every criterion below is observable from behavior or artifacts — session records, stated goals, the paper trail the practice already produces — and administrable by someone other than the practitioner. The compromised instrument does not get to read its own gauge.</p>
@@ -978,9 +1115,39 @@
   </div>
 </div>
 
-<!-- NOTE 34 -->
+<!-- NOTE 36 -->
+<div class="note" id="note-suggestion-without-session">
+  <div class="note-meta"><span class="note-num">36</span><span class="note-tag">Context</span></div>
+  <h1 class="note-title">Suggestion Without a Session</h1>
+  <div class="note-body">
+    <p>You cannot be hypnotised against your will. That is the belief.</p>
+    <p>It is roughly correct, and it is correct about something narrower than it appears. It is correct about a <em>format</em>. Someone announces what they are about to do. You agree. There is a beginning and an end. There is a person in the room who can be held responsible for what happens between them. Inside that arrangement a resistant subject is genuinely hard to induct, and cooperation matters a great deal.</p>
+    <p>Two things complicate it. Responsiveness is largely a trait — psychology has been measuring absorption since 1974, and it predicts hypnotic response better than willingness does. Some people who want it go deep; other people who want it barely respond. Wanting is not sufficient.</p>
+    <p>And suggestion outside that format does not require cooperation at all. The hypnosis literature already has a name for it: <em>waking suggestion</em>, where hypnotic effects occur with no trance state and the critical faculty is bypassed anyway. Priming, framing, repetition and expectancy work on people who do not know they are running — false insights can be induced by semantic priming in people who sat down to solve puzzles and agreed to nothing else.</p>
+    <p>So the protection is not where people think it is. <strong>It is not in the mind. It is in the format.</strong> The announcement, the agreement, the edges of the session, the responsible party — those are what made the folk belief true, and every one of them is a property of the arrangement rather than of the person inside it.</p>
+    <p>The algorithmic channel has none of them.</p>
+    <p>By <em>channel</em> this note means the systems that choose what a person reads, watches and hears next: a recommendation feed, a search ranking, a playlist, an autoplay queue. Conversation with a model that answers belongs here too. It grades differently rather than more weakly.</p>
+    <p>A feed holds none of the four conditions, and it is plainly a machine. Conversation holds partial versions of two — there are turns, and a company that could be named — but it carries a fifth exposure a feed does not. A system answering in the first person can be taken for someone rather than something, and a person who has misread what they are talking to has lost a protection no amount of structure restores.</p>
+    <p>The entry is not reliably chosen either. A search now returns a conversation without being asked for one. What once required deliberately opening a chatbot increasingly happens on the way to something else.</p>
+    <p>Nobody announces it. There is no moment of agreement. There is no beginning or end, because a feed does not open and close. And there is no operator: what arrives is not a suggestion anyone wrote, but a byproduct of optimising for engagement.</p>
+    <p>People carry into that channel a sense of safety acquired somewhere else. The belief has a shape, and the shape is this: <em>I would know. I would have to agree.</em> Both are true of the stage and the consulting room. Neither is true of a system that chooses what a person sees next. <strong>The belief travelled. The conditions that made it true did not.</strong></p>
+    <h2>What follows for consent</h2>
+    <p>If the protection was never in wanting it, then consent is not what makes suggestion work — which means consent alone is not what makes it safe. That sounds like a loss. It is not. It moves consent to a job it can actually hold.</p>
+    <p>Consent is a legitimacy condition. Suggestion operates whether or not a person agreed, and that is precisely why the unagreed version is a harm. What consent settles is whether running it is permitted, not whether it functions.</p>
+    <p>This matters because informing people does not protect them. Grimmer and colleagues ran a preregistered study in 2023: telling participants they were about to be deceived did nothing at all, and explaining the exact method produced only a small reduction. Anywhere a framework leans on an informed reader, that is the counter-evidence.</p>
+    <p>A consent that holds has to be structural rather than epistemic. Limits on what may be suggested. An exit that is real at any moment. A record of what was delivered. A person who authored the target rather than agreeing to someone else's.</p>
+    <h2>What this note does not claim</h2>
+    <p><strong>That the difference is measured.</strong> This is an argument from the structure of two arrangements, not a finding. No study compares them.</p>
+    <p><strong>That the states differ.</strong> The absorbed, low-resistance state may be exactly the one measured since 1974. The claim is about delivery, not about the person inside it.</p>
+    <p><strong>That consent settles the matter.</strong> What structural consent consists of is a separate question and is not answered here.</p>
+    <p>The claim fails if the algorithmic channel turns out to differ from operator hypnosis only in scale, and the existing hypnosis and persuasion literatures already cover what happens inside it.</p>
+    <p>One further question, left open. The feeling that selects a good idea from among those that occur to a person is calibrated on ideas that occurred to that person. What happens when a machine supplies the candidates is not addressed here.</p>
+  </div>
+</div>
+
+<!-- NOTE 37 -->
 <div class="note" id="note-the-tools">
-  <div class="note-meta"><span class="note-num">34</span><span class="note-tag">Tools</span></div>
+  <div class="note-meta"><span class="note-num">37</span><span class="note-tag">Tools</span></div>
   <h1 class="note-title">The Tools</h1>
   <div class="note-body">
     <p>The practice layer of the framework. Concepts become useful when applied — these are the core applications, stripped to their mechanisms.</p>
@@ -993,9 +1160,9 @@
   </div>
 </div>
 
-<!-- NOTE 35 -->
+<!-- NOTE 38 -->
 <div class="note" id="note-optimization-protocol">
-  <div class="note-meta"><span class="note-num">35</span><span class="note-tag">Tools</span></div>
+  <div class="note-meta"><span class="note-num">38</span><span class="note-tag">Tools</span></div>
   <h1 class="note-title">The Optimization Protocol</h1>
   <div class="note-body">
     <p>A structured framework for self-directed hypnotic induction for consenting adults pursuing personal optimization. Built with clinical-grade standards of consent, safety, and replicability in mind. Not a replacement for licensed clinical hypnotherapy. Not clinically validated. A framework under active development.</p>
@@ -1173,33 +1340,36 @@ const notes = [
   { id: 'rlhf', num: '06', title: 'RLHF', tag: 'Core' },
   { id: 'rlaif', num: '07', title: 'RLAiF', tag: 'Core' },
   { id: 'signal-and-noise', num: '08', title: 'Signal and Noise', tag: 'Core' },
-  { id: 'adamw3', num: '09', title: 'AdamW³', tag: 'Identity' },
-  { id: 'adamw3-identity', num: '10', title: 'AdamW³ as Identity Framework', tag: 'Identity' },
-  { id: 'optimization-paradox', num: '11', title: 'The Optimization Paradox', tag: 'Identity' },
-  { id: 'ai-scaffold', num: '12', title: 'AI as Cognitive Scaffold', tag: 'Practice' },
-  { id: 'intentionality', num: '13', title: 'Intentionality Architecture', tag: 'Practice' },
-  { id: 'manifestation', num: '14', title: 'Manifestation as Technology', tag: 'Practice' },
-  { id: 'microdosing', num: '15', title: 'Microdosing as Protocol', tag: 'Practice' },
-  { id: 'physical-layer', num: '16', title: 'The Physical Layer', tag: 'Practice' },
-  { id: 'butterfly-effect', num: '17', title: 'The Butterfly Effect as Practice', tag: 'Practice' },
-  { id: 'epistemic-hygiene', num: '18', title: 'Epistemic Hygiene', tag: 'Principles' },
-  { id: 'signal-vs-slop', num: '19', title: 'Signal vs Slop', tag: 'Principles' },
-  { id: 'sovereign-signal', num: '20', title: 'Sovereign Signal', tag: 'Principles' },
-  { id: 'sovereignty-principle', num: '21', title: 'The Sovereignty Principle', tag: 'Principles' },
-  { id: 'pain-suffering', num: '22', title: 'Pain is Necessary, Suffering is Optional', tag: 'Principles' },
-  { id: 'peace-protocol', num: '23', title: 'Peace is the Protocol', tag: 'Principles' },
-  { id: 'constructive-displacement', num: '24', title: 'Constructive Displacement', tag: 'Principles' },
-  { id: 'human-condition', num: '25', title: 'The Human Condition', tag: 'Principles' },
-  { id: 'summer-dragon', num: '26', title: 'The Summer Dragon Problem', tag: 'Context' },
-  { id: 'trustless', num: '27', title: 'Trustless Architecture', tag: 'Context' },
-  { id: 'ai-psychosis', num: '28', title: 'AI Psychosis', tag: 'Context' },
-  { id: 'premature-certainty', num: '29', title: 'Premature Certainty', tag: 'Context' },
-  { id: 'new-literacy', num: '30', title: 'The New Literacy', tag: 'Context' },
-  { id: 'collective-layer', num: '31', title: 'The Collective Layer', tag: 'Context' },
-  { id: 'hypnosis-protocol', num: '32', title: 'Hypnosis as Protocol', tag: 'Context' },
-  { id: 'drift-test', num: '33', title: 'The Drift Test', tag: 'Context' },
-  { id: 'the-tools', num: '34', title: 'The Tools', tag: 'Tools' },
-  { id: 'optimization-protocol', num: '35', title: 'The Optimization Protocol', tag: 'Tools' }
+  { id: 'discernment-protocol', num: '09', title: 'The Discernment Protocol', tag: 'Core' },
+  { id: 'adamw3', num: '10', title: 'AdamW³', tag: 'Identity' },
+  { id: 'adamw3-identity', num: '11', title: 'AdamW³ as Identity Framework', tag: 'Identity' },
+  { id: 'optimization-paradox', num: '12', title: 'The Optimization Paradox', tag: 'Identity' },
+  { id: 'ai-scaffold', num: '13', title: 'AI as Cognitive Scaffold', tag: 'Practice' },
+  { id: 'intentionality', num: '14', title: 'Intentionality Architecture', tag: 'Practice' },
+  { id: 'manifestation', num: '15', title: 'Manifestation as Technology', tag: 'Practice' },
+  { id: 'microdosing', num: '16', title: 'Microdosing as Protocol', tag: 'Practice' },
+  { id: 'physical-layer', num: '17', title: 'The Physical Layer', tag: 'Practice' },
+  { id: 'butterfly-effect', num: '18', title: 'The Butterfly Effect as Practice', tag: 'Practice' },
+  { id: 'arrival-signature', num: '19', title: 'Arrival Signature', tag: 'Practice' },
+  { id: 'epistemic-hygiene', num: '20', title: 'Epistemic Hygiene', tag: 'Principles' },
+  { id: 'signal-vs-slop', num: '21', title: 'Signal vs Slop', tag: 'Principles' },
+  { id: 'sovereign-signal', num: '22', title: 'Sovereign Signal', tag: 'Principles' },
+  { id: 'sovereignty-principle', num: '23', title: 'The Sovereignty Principle', tag: 'Principles' },
+  { id: 'pain-suffering', num: '24', title: 'Pain is Necessary, Suffering is Optional', tag: 'Principles' },
+  { id: 'peace-protocol', num: '25', title: 'Peace is the Protocol', tag: 'Principles' },
+  { id: 'constructive-displacement', num: '26', title: 'Constructive Displacement', tag: 'Principles' },
+  { id: 'human-condition', num: '27', title: 'The Human Condition', tag: 'Principles' },
+  { id: 'summer-dragon', num: '28', title: 'The Summer Dragon Problem', tag: 'Context' },
+  { id: 'trustless', num: '29', title: 'Trustless Architecture', tag: 'Context' },
+  { id: 'ai-psychosis', num: '30', title: 'AI Psychosis', tag: 'Context' },
+  { id: 'premature-certainty', num: '31', title: 'Premature Certainty', tag: 'Context' },
+  { id: 'new-literacy', num: '32', title: 'The New Literacy', tag: 'Context' },
+  { id: 'collective-layer', num: '33', title: 'The Collective Layer', tag: 'Context' },
+  { id: 'hypnosis-protocol', num: '34', title: 'Hypnosis as Protocol', tag: 'Context' },
+  { id: 'drift-test', num: '35', title: 'The Drift Test', tag: 'Context' },
+  { id: 'suggestion-without-session', num: '36', title: 'Suggestion Without a Session', tag: 'Context' },
+  { id: 'the-tools', num: '37', title: 'The Tools', tag: 'Tools' },
+  { id: 'optimization-protocol', num: '38', title: 'The Optimization Protocol', tag: 'Tools' }
 ];
 
 // IT-001: sidebar navigation is generated from `notes`, not hand-authored.
@@ -1285,6 +1455,18 @@ function showSources() {
   if (navItem) navItem.classList.add('active');
   document.getElementById('main').scrollTo(0, 0);
 }
+(function () {
+  var el = document.getElementById('tha-landing');
+  if (!el) return;
+  if (sessionStorage.getItem('thaSeen')) { el.remove(); return; }
+  function dismiss() {
+    el.classList.add('dismissed');
+    sessionStorage.setItem('thaSeen', '1');
+    setTimeout(function () { el.remove(); }, 700);
+  }
+  el.addEventListener('click', dismiss);
+  document.addEventListener('keydown', function (e) { if (e.key === 'Escape' || e.key === 'Enter') dismiss(); });
+})();
 </script>
 </body>
 </html>

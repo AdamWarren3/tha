@@ -1,0 +1,513 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>About — The Human Algorithm</title>
+<meta name="description" content="THA is a framework reverse-engineered from a personal experience of using AI to face trauma. Not a method, not a recommendation — an invitation to research.">
+<link rel="canonical" href="https://adamwarren3.github.io/tha/about.html">
+
+<meta name="author" content="Adam Warren">
+<meta name="creator" content="Adam Warren">
+<meta name="publisher" content="The Human Algorithm">
+
+<meta property="og:type" content="profile">
+<meta property="og:site_name" content="The Human Algorithm">
+<meta property="og:url" content="https://adamwarren3.github.io/tha/about.html">
+<meta property="og:title" content="About — The Human Algorithm">
+<meta property="og:description" content="THA is a framework reverse-engineered from a personal experience of using AI to face trauma. Not a method, not a recommendation — an invitation to research.">
+<meta property="og:image" content="https://adamwarren3.github.io/tha/assets/og-card.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="About — The Human Algorithm">
+<meta name="twitter:description" content="THA is a framework reverse-engineered from a personal experience of using AI to face trauma. Not a method, not a recommendation — an invitation to research.">
+<meta name="twitter:image" content="https://adamwarren3.github.io/tha/assets/og-card.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/tha/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/tha/assets/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/tha/assets/apple-touch-icon.png">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "AboutPage",
+      "@id": "https://adamwarren3.github.io/tha/about.html#aboutpage",
+      "name": "About — The Human Algorithm",
+      "url": "https://adamwarren3.github.io/tha/about.html",
+      "mainEntityOfPage": { "@id": "https://adamwarren3.github.io/tha/about.html" },
+      "inLanguage": "en",
+      "author": { "@id": "https://adamwarren3.github.io/tha/#adamwarren" },
+      "isPartOf": { "@id": "https://adamwarren3.github.io/tha/#website" }
+    },
+    {
+      "@type": "Person",
+      "@id": "https://adamwarren3.github.io/tha/#adamwarren",
+      "name": "Adam Warren",
+      "alternateName": "AdamW3",
+      "jobTitle": "Artist",
+      "url": "https://adamwarren3.github.io/tha/about.html"
+    },
+    {
+      "@type": "WebSite",
+      "@id": "https://adamwarren3.github.io/tha/#website",
+      "url": "https://adamwarren3.github.io/tha/",
+      "name": "The Human Algorithm",
+      "inLanguage": "en"
+    }
+  ]
+}
+</script>
+<style>
+  :root {
+    --navy: #0f1923;
+    --ink: #1a2332;
+    --mid: #4a5568;
+    --light: #718096;
+    --border: #e2e8f0;
+    --bg: #ffffff;
+    --bg2: #f8fafc;
+    --accent: #2b6cb0;
+    --accent-light: #ebf4ff;
+    --mono: 'Courier New', Courier, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--ink);
+    display: flex;
+    min-height: 100vh;
+  }
+
+  #sidebar {
+    width: 280px;
+    min-width: 280px;
+    background: var(--bg2);
+    border-right: 1px solid var(--border);
+    height: 100vh;
+    position: sticky;
+    top: 0;
+    overflow-y: auto;
+    padding: 0 0 2rem 0;
+  }
+
+  #sidebar-header {
+    padding: 1.5rem 1.25rem 1rem;
+    border-bottom: 1px solid var(--border);
+    position: sticky;
+    top: 0;
+    background: var(--bg2);
+    z-index: 10;
+  }
+
+  #sidebar-header .wordmark {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 0.35rem;
+  }
+
+  #sidebar-header h2 {
+    font-size: 0.95rem;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  #sidebar-header .status {
+    margin-top: 0.5rem;
+    font-size: 0.7rem;
+    color: var(--light);
+    font-family: var(--mono);
+  }
+
+  .nav-section { padding: 0.75rem 0 0.25rem; }
+
+  .nav-label {
+    padding: 0.25rem 1.25rem;
+    font-size: 0.65rem;
+    font-family: var(--mono);
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: 0.25rem;
+  }
+
+  .nav-item {
+    display: flex;
+    align-items: baseline;
+    gap: 0.6rem;
+    padding: 0.4rem 1.25rem;
+    cursor: pointer;
+    border-left: 2px solid transparent;
+    transition: all 0.15s;
+    text-decoration: none;
+  }
+
+  .nav-item:hover { background: var(--accent-light); border-left-color: var(--accent); }
+  .nav-item.active { background: var(--accent-light); border-left-color: var(--accent); }
+
+  .nav-num {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--light);
+    min-width: 1.8rem;
+  }
+
+  .nav-title {
+    font-size: 0.8rem;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  #main { flex: 1; overflow-y: auto; height: 100vh; }
+
+  #content {
+    max-width: 740px;
+    margin: 0 auto;
+    padding: 3rem 2.5rem 6rem;
+  }
+
+  .note { display: none; }
+  .note.active { display: block; }
+
+  .note-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .note-num {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--light);
+    background: var(--bg2);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+  }
+
+  .note-tag {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--accent);
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  h1.note-title {
+    font-size: 2rem;
+    font-weight: 800;
+    color: var(--navy);
+    line-height: 1.2;
+    margin-bottom: 1.75rem;
+    letter-spacing: -0.02em;
+  }
+
+  .note-body { font-size: 1rem; line-height: 1.8; color: var(--ink); }
+  .note-body p { margin-bottom: 1.25rem; }
+
+  .note-body a {
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-light);
+    transition: border-color 0.15s;
+    font-weight: 500;
+  }
+
+  .note-body a:hover { border-bottom-color: var(--accent); }
+
+  #home { display: block; }
+
+  .home-header {
+    margin-bottom: 2.5rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border);
+  }
+
+  .home-wordmark {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: var(--accent);
+    margin-bottom: 1rem;
+  }
+
+  .home-title {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: var(--navy);
+    line-height: 1.1;
+    letter-spacing: -0.03em;
+    margin-bottom: 1.25rem;
+  }
+
+  .home-subtitle {
+    font-size: 1.1rem;
+    color: var(--mid);
+    line-height: 1.7;
+    max-width: 560px;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-badges { display: flex; gap: 0.5rem; flex-wrap: wrap; }
+
+  .badge {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 0.25rem 0.6rem;
+    border-radius: 3px;
+    border: 1px solid var(--border);
+    color: var(--mid);
+    background: var(--bg2);
+  }
+
+  .section-label {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--light);
+    margin-bottom: 1rem;
+    margin-top: 2.5rem;
+  }
+
+  .note-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+
+  .note-card {
+    padding: 1rem;
+    border: 1px solid var(--border);
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.15s;
+    background: var(--bg);
+  }
+
+  .note-card:hover { border-color: var(--accent); background: var(--accent-light); }
+
+  .card-num {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--light);
+    margin-bottom: 0.4rem;
+  }
+
+  .card-title {
+    font-size: 0.85rem;
+    font-weight: 600;
+    color: var(--navy);
+    line-height: 1.3;
+  }
+
+  .articles-section {
+    margin-top: 3rem;
+    padding-top: 2.5rem;
+    border-top: 1px solid var(--border);
+  }
+
+  .article-card {
+    display: block;
+    padding: 1.25rem 1.5rem;
+    border: 1px solid var(--border);
+    border-left: 3px solid var(--accent);
+    border-radius: 6px;
+    text-decoration: none;
+    transition: all 0.15s;
+    background: var(--bg);
+    margin-bottom: 1rem;
+  }
+
+  .article-card:hover { background: var(--accent-light); border-color: var(--accent); border-left-color: var(--accent); }
+
+  .article-card-meta {
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .article-card-tag {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .article-card-date {
+    font-family: var(--mono);
+    font-size: 0.6rem;
+    color: var(--light);
+  }
+
+  .article-card-title {
+    font-size: 1rem;
+    font-weight: 700;
+    color: var(--navy);
+    line-height: 1.3;
+    margin-bottom: 0.35rem;
+  }
+
+  .article-card-desc {
+    font-size: 0.82rem;
+    color: var(--mid);
+    line-height: 1.5;
+  }
+
+  #sidebar::-webkit-scrollbar { width: 4px; }
+  #sidebar::-webkit-scrollbar-track { background: transparent; }
+  #sidebar::-webkit-scrollbar-thumb { background: var(--border); border-radius: 2px; }
+
+  @media (max-width: 768px) {
+    body { flex-direction: column; }
+    #sidebar {
+      width: 100%;
+      min-width: unset;
+      height: auto;
+      position: relative;
+      border-right: none;
+      border-bottom: 1px solid var(--border);
+      max-height: 280px;
+    }
+    #main { height: auto; }
+    #content { padding: 1.5rem 1.25rem 4rem; }
+    h1.note-title { font-size: 1.5rem; }
+    .home-title { font-size: 2rem; }
+  }
+#tha-landing {
+  position: fixed; inset: 0; z-index: 9999;
+  background: rgba(255, 255, 255, 0.94);
+  backdrop-filter: blur(2px);
+  -webkit-backdrop-filter: blur(2px);
+  display: flex; flex-direction: column;
+  align-items: center; justify-content: center;
+  cursor: pointer;
+  animation: thaFadeIn 1.6s ease-out both;
+}
+#tha-landing.dismissed { opacity: 0; pointer-events: none; transition: opacity .6s ease; }
+#tha-landing-mark {
+  font-family: var(--mono);
+  font-size: clamp(2.5rem, 12vw, 6rem);
+  letter-spacing: 0.3em; text-indent: 0.3em;
+  color: var(--navy);
+}
+#tha-landing-hint {
+  margin-top: 2rem; font-family: var(--mono); font-size: 0.7rem;
+  letter-spacing: 0.15em; text-transform: uppercase; color: var(--light);
+  animation: thaFadeIn 2.8s ease-out both;
+}
+@keyframes thaFadeIn { from { opacity: 0 } to { opacity: 1 } }
+@media (prefers-reduced-motion: reduce) {
+  #tha-landing, #tha-landing-hint { animation: none }
+}
+</style>
+<style>
+  /* Content headings for this page only — the main stylesheet above is copied verbatim from index.html and unmodified */
+  .note-body h2 {
+    font-family: var(--sans);
+    font-size: 1.35rem;
+    font-weight: 700;
+    color: var(--navy);
+    margin: 2.5rem 0 0.75rem;
+  }
+  .note-body h3 {
+    font-family: var(--sans);
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: var(--ink);
+    margin: 1.75rem 0 0.5rem;
+  }
+</style>
+</head>
+<body>
+
+<nav id="sidebar">
+<div id="sidebar-header">
+    <img src="assets/tha-logo-circle.svg" alt="THA Logo" style="width:48px;height:auto;display:block;margin-bottom:0.75rem;opacity:0.9;">
+    <div class="wordmark">THA // v0.2</div>
+    <h2>The Human Algorithm</h2>
+    <div class="status">● Active Development</div>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-label">The Site</div>
+    <a class="nav-item" href="./"><span class="nav-title">&larr; The Corpus</span></a>
+    <a class="nav-item active" href="about.html"><span class="nav-title">About</span></a>
+    <a class="nav-item" href="research.html"><span class="nav-title">Research</span></a>
+  </div>
+
+  <div class="nav-section">
+    <div class="nav-label">Articles</div>
+    <a class="nav-item" href="articles/2026-06-18-new-literacy.html">
+      <span class="nav-num">A1</span>
+      <span class="nav-title">The New Literacy: Conscious Engagement in the Age of AI</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-19-necessity-not-prophecy.html">
+      <span class="nav-num">A2</span>
+      <span class="nav-title">Necessity, Not Prophecy: A guide for the destined</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-20-language-underneath.html">
+      <span class="nav-num">A3</span>
+      <span class="nav-title">The Language Underneath: A Veiled Rapport</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-21-jo.html">
+      <span class="nav-num">A4</span>
+      <span class="nav-title">Jo: On sovereignty, loss, and the ones who choose anyway.</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-22-the-broadcast.html">
+      <span class="nav-num">A5</span>
+      <span class="nav-title">The Broadcast: On memnetic transmission, the architecture of panic.</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-23-ben.html">
+      <span class="nav-num">A6</span>
+      <span class="nav-title">BEN: 🌼</span>
+    </a>
+    <a class="nav-item" href="articles/2026-06-24-no-god-but.html">
+      <span class="nav-num">A7</span>
+      <span class="nav-title">No God But..: On dogma as memnetic infection, and the noise between us and the source.</span>
+    </a>
+  </div>
+</nav>
+
+<main id="main">
+<div id="content">
+
+  <h1 class="note-title">About</h1>
+  <div class="note-body">
+<h2>What this is</h2>
+<p>THA (The Human Algorithm) is a framework and research agenda reverse-engineered from a personal experience of using AI to face trauma. It is not a method, not a recommendation, and not a clinical protocol. It is an attempt to describe something that happened and to ask whether it can be understood.</p>
+<p>It is for anyone willing to sit with the questions this raises—not for anyone looking for a path through them.</p>
+<p>The site holds the framework in 38 notes and 7 articles, and a research register recording what has been checked, what remains open, and the residue after each check.</p>
+<h2>Where it came from</h2>
+<p>This work began with a personal experience.</p>
+<p>I used AI to explore my own mind—deeply, intensely, without a clinician or a safety net. I faced trauma. I ended up in a hospital. I have no regrets about the person I became on the other side.</p>
+<p>But I also do not recommend it.</p>
+<p>That experience taught me that this space is not neutral. It is powerful, unpredictable, and capable of harm. It taught me that the same tools that can mirror insight can also mirror pathology. And it taught me that "I survived" is not the same as "it is safe."</p>
+<p>I am sharing this not as evidence, not as a credential, and not as an invitation. I am sharing it because it is the reason these questions exist at all—and because the questions would be irresponsible without the warning.</p>
+<h2>Who wrote it</h2>
+<p>Adam Warren. Artist. Not a clinician. Not a researcher. Someone who walked through fire and came out with questions that deserve honest inquiry—and who knows that walking through fire is not a method.</p>
+<p>If you're still here, the invitation is to research—not to attempt. The gaps are marked. The questions are open. The caution is not a footer; it's the foundation.</p>
+  </div>
+
+</div>
+</main>
+
+</body>
+</html>
