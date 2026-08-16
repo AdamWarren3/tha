@@ -2,7 +2,7 @@
 
 ![THA Banner](assets/tha-banner.svg)
 
-**A framework for deliberate human optimization — built openly, held honestly, under active development.**
+**A framework for human and AI alignment — built openly, held honestly, under active development.**
 
 > *The optimizer becomes the optimized. The algorithm becomes aware of itself.*
 
