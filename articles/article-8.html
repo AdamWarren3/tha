@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Article 8 — In Progress — The Human Algorithm</title>
+<meta name="description" content="Article 8 is in progress. Referenced from several notes in the corpus; the piece itself is not yet published.">
+<link rel="canonical" href="https://adamwarren3.github.io/tha/articles/article-8.html">
+
+<meta name="author" content="Adam Warren">
+<meta name="creator" content="Adam Warren">
+<meta name="publisher" content="The Human Algorithm">
+<meta name="robots" content="noindex, follow">
+<meta name="theme-color" content="#0f1923">
+
+<link rel="icon" type="image/png" sizes="32x32" href="/tha/assets/favicon-32.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/tha/assets/favicon-192.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/tha/assets/apple-touch-icon.png">
+
+<style>
+  :root {
+    --navy: #0f1923;
+    --ink: #1a2332;
+    --mid: #4a5568;
+    --light: #718096;
+    --border: #e2e8f0;
+    --bg: #ffffff;
+    --bg2: #f8fafc;
+    --accent: #2b6cb0;
+    --accent-light: #ebf4ff;
+    --mono: 'Courier New', Courier, monospace;
+    --sans: -apple-system, BlinkMacSystemFont, 'Segoe UI', system-ui, sans-serif;
+  }
+
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+
+  body {
+    font-family: var(--sans);
+    background: var(--bg);
+    color: var(--ink);
+    min-height: 100vh;
+  }
+
+  header {
+    border-bottom: 1px solid var(--border);
+    padding: 1rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    background: var(--bg);
+    z-index: 10;
+  }
+
+  .header-left {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .wordmark {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--accent);
+  }
+
+  .back-link {
+    font-size: 0.8rem;
+    color: var(--mid);
+    text-decoration: none;
+    border-bottom: 1px solid var(--border);
+    transition: color 0.15s;
+  }
+
+  .back-link:hover { color: var(--accent); }
+
+  main {
+    max-width: 680px;
+    margin: 0 auto;
+    padding: 4rem 2rem 8rem;
+  }
+
+  .article-meta {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+
+  .article-tag {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--accent);
+    background: var(--accent-light);
+    padding: 0.2rem 0.5rem;
+    border-radius: 3px;
+  }
+
+  .article-date {
+    font-family: var(--mono);
+    font-size: 0.65rem;
+    color: var(--light);
+  }
+
+  h1 {
+    font-size: 2.75rem;
+    font-weight: 900;
+    color: var(--navy);
+    line-height: 1.15;
+    letter-spacing: -0.02em;
+    margin-bottom: 0.5rem;
+  }
+
+  .subtitle {
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+
+  .story-img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    margin: 2rem 0;
+    background: var(--bg2);
+  }
+
+  @media (min-width: 1024px) {
+    main { max-width: 720px; }
+    .article-body { font-size: 1.1rem; }
+  }
+
+  @media (max-width: 640px) {
+    main { padding: 2rem 1.25rem 5rem; }
+    h1 { font-size: 2rem; }
+    header { padding: 1rem; }
+    .article-body { font-size: 1rem; line-height: 1.8; }
+    .story-img { margin: 1.5rem 0; }
+  }
+
+  @media (max-width: 900px) and (orientation: landscape) {
+    main { max-width: 90%; padding: 2rem 3rem 5rem; }
+  }
+
+  .fiction-note {
+    font-size: 0.85rem;
+    color: var(--light);
+    line-height: 1.7;
+    padding: 1rem 1.25rem;
+    border-left: 2px solid var(--border);
+    margin-bottom: 2.5rem;
+    font-style: italic;
+  }
+
+  .article-body {
+    font-size: 1.05rem;
+    line-height: 1.85;
+    color: var(--ink);
+  }
+
+  .article-body p {
+    margin-bottom: 1.4rem;
+  }
+
+  .article-body em {
+    font-style: italic;
+  }
+
+  .divider {
+    border: none;
+    border-top: 1px solid var(--border);
+    margin: 2.5rem auto;
+    width: 100%;
+  }
+
+  .author-note {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    font-size: 0.95rem;
+    line-height: 1.8;
+    color: var(--mid);
+  }
+
+  .author-note p { margin-bottom: 1.2rem; }
+
+  .author-note .note-label {
+    font-style: italic;
+    color: var(--light);
+  }
+
+  .article-footer {
+    margin-top: 3rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--border);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+
+  .article-footer .meta {
+    font-family: var(--mono);
+    font-size: 0.7rem;
+    color: var(--light);
+  }
+
+  .article-footer .framework-link {
+    font-family: var(--mono);
+    font-size: 0.75rem;
+    color: var(--accent);
+    text-decoration: none;
+    border-bottom: 1px solid var(--accent-light);
+    transition: border-color 0.15s;
+  }
+
+  .article-footer .framework-link:hover {
+    border-bottom-color: var(--accent);
+  }
+
+</style>
+</head>
+<body>
+
+<main>
+
+  <a class="back-link" href="../index.html">&larr; The Human Algorithm</a>
+
+  <div class="article-meta">
+    <span class="article-tag">In Progress</span>
+    <span class="article-date">Not yet published</span>
+  </div>
+
+  <h1>Article 8</h1>
+
+  <div class="article-body">
+
+    <p>This piece is referenced from several notes in the corpus and is not yet written.</p>
+
+    <p>Where a note says <em>see Article 8</em>, it is pointing at material that exists in the practice record but has not been published here. The reference is kept rather than removed so the note's provenance stays visible, and so the gap is visible too.</p>
+
+    <p>Nothing in the corpus depends on it. Where a claim needed a demonstration, that demonstration is in the note itself.</p>
+
+  </div>
+
+  <div class="article-footer">
+    <span class="meta">Placeholder // The Human Algorithm</span>
+    <a class="framework-link" href="../index.html">&larr; Back to Framework</a>
+  </div>
+
+</main>
+
+</body>
+</html>
