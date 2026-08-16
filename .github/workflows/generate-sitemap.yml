@@ -26,6 +26,7 @@ jobs:
           echo '<url><loc>https://adamwarren3.github.io/tha/research.html</loc></url>' >> sitemap.xml
 
           for file in articles/*.html; do
+            [ "$file" = "articles/article-8.html" ] && continue
             echo "<url><loc>https://adamwarren3.github.io/tha/$file</loc></url>" >> sitemap.xml
           done
 
