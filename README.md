@@ -64,7 +64,7 @@ Anyone who wants to think more clearly, interact with AI deliberately, filter si
 - **Practice** — AI as Cognitive Scaffold, Intentionality Architecture, Manifestation as Technology, Microdosing as Protocol, The Physical Layer, The Butterfly Effect as Practice
 - **Principles** — Epistemic Hygiene, Signal vs Slop, Sovereign Signal, The Sovereignty Principle, Pain is Necessary, Suffering is Optional, Peace is the Protocol, Constructive Displacement, The Human Condition
 - **Context** — The Summer Dragon Problem, Trustless Architecture, AI Psychosis, Premature Certainty, The New Literacy, The Collective Layer, Hypnosis as Protocol, The Drift Test
-- **Tools** — The Tools, The Optimization Protocol
+- **Tools** — The Tools
 
 Browse the full framework: [THA Website](https://adamwarren3.github.io/tha/)
 
@@ -92,7 +92,7 @@ AI-assisted reflection has real potential for helping people work through old pa
 
 ## Vision
 
-Potential future applications include therapeutic tools developed alongside medical professionals, AI literacy curriculum, and interactive goal-setting tools. The core framework is what exists now. Everything else is being built.
+Research in this direction could inform therapeutic tools built with medical professionals, AI literacy curriculum, and goal-setting work. None of that is being built here. What exists is the framework, the corpus, and the research register.
 
 ---
 

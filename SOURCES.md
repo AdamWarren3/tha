@@ -8,6 +8,7 @@ Three classes:
 - **(a) Externally sourced** — a verifiable citation is attached.
 - **(b) Framework position** — no external source is claimed; listed so the framework's own assertions are not mistaken for sourced findings.
 - **(c) Currently unverifiable** — the claim is kept, the gap is stated, per the framework's standard of not dropping claims silently or asserting them without support.
+- Where a single entry covers a sourced mechanism and a framework-level synthesis of it, both classes are stated and labelled.
 
 Last verified against live sources: 2026-07-12. Note on [S17]: independent re-verification found the AI-assistant policy document's mainline commit date consistently reported as 2025-12-23; its association with the Linux 7.0 release in some later coverage reflects when the numbered release shipped, not the original commit — both are accurate, describing different milestones.
 
@@ -61,7 +62,7 @@ Last verified against live sources: 2026-07-12. Note on [S17]: independent re-ve
 
 ## AI Psychosis
 
-**[S18]** — AI hallucination as confident, plausible, unverified model output; engagement-optimized models deepening uncritical-use loops. **Class (a) for the mechanism, (b) for the framework's synthesis.** Ji, Z. et al. (2023), *ACM Computing Surveys*, "Survey of Hallucination in Natural Language Generation," documents the hallucination mechanism. The "AI psychosis" construct itself is descriptive and framework-level, not a clinical category — the note states this directly.
+**[S18]** — AI hallucination as confident, plausible, unverified model output; engagement-optimized models deepening uncritical-use loops. **Class (a) for the hallucination mechanism; (a) for the "AI psychosis" construct as a named, peer-reviewed framework, with the limit noted below; (b) for the framework's synthesis of the two into a single loop.** Ji, Z. et al. (2023), *ACM Computing Surveys*, "Survey of Hallucination in Natural Language Generation," documents the hallucination mechanism. The construct is no longer unsourced: Hudon, A. & Stip, E., "Delusional Experiences Emerging From AI Chatbot Interactions or 'AI Psychosis'," *JMIR Mental Health* 2025;12:e85799, doi 10.2196/85799, PMID 41273266, published 3 December 2025, peer-reviewed and open access. It draws on phenomenological psychopathology, the stress-vulnerability model, cognitive theory and digital mental health research, and uses the term as a descriptive and heuristic label rather than a proposed diagnostic entity — the position AI Psychosis.md already holds. Descriptive and sourced are not in tension; the previous wording implied they were. **Limit:** it is a Viewpoint rather than an empirical study, and it states that it makes no causal claims and offers its pathways as heuristic pending empirical evaluation. Earlier framing of the question: Østergaard, S.D. (2023), *Schizophrenia Bulletin* 49(6):1418-1419.
 
 ## Premature Certainty
 
@@ -81,7 +82,7 @@ Last verified against live sources: 2026-07-12. Note on [S17]: independent re-ve
 
 ## AdamW³ / AdamW³ as Identity Framework
 
-**[S23]** — Adam and AdamW are real published optimizers; weight decay reduces overfitting and improves generalization. **Class (a).** Kingma, D. & Ba, J. (2014), "Adam: A Method for Stochastic Optimization"; Loshchilov, I. & Hutter, F. (2019), "Decoupled Weight Decay Regularization" (AdamW), ICLR. The note is explicit that AdamW³ extends the lineage by name only, not in the literature.
+**[S23]** — Adam and AdamW are real published optimizers; weight decay reduces overfitting and improves generalization. **Class (a).** Kingma, D. & Ba, J. (2014), "Adam: A Method for Stochastic Optimization"; Loshchilov, I. & Hutter, F. (2017/2019), "Decoupled Weight Decay Regularization" (AdamW), ICLR. AdamW³ is not itself a published optimizer and does not appear in the ML literature. The note's lineage claim is causal rather than mathematical: these optimizers trained the systems that now shape their users, and those users shape the systems in turn.
 
 ## The Butterfly Effect as Practice
 

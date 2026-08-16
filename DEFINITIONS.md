@@ -4,7 +4,7 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 
 ---
 
-**AdamW³** — Recursive self-correction applied to identity — not who I was, not who I became, but who repeated, conscious correction produced. → [[AdamW3 as Identity Framework]]
+**AdamW³** — The third step after the Adam and AdamW optimizers: the AI those were built to train, and the people who built it, now shaping each other. A state, not a person. → [[AdamW3]]
 
 **AI as Cognitive Scaffold** — AI as a deliberate cognitive tool for reflection and pattern-tracking — not memory, not an oracle. → [[AI as Cognitive Scaffold]]
 
@@ -35,8 +35,6 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 **NLP²** — A single mechanism — language structuring the system it runs on — operating simultaneously at computational, cognitive, and cultural scale, each shift propagating across the others. → [[NLP2]] — *Hypothesis*
 
 **The Optimization Paradox** — Optimizing yourself requires becoming, temporarily, an observer of yourself — distance from identity substituting for the outside view a system normally needs. → [[The Optimization Paradox]]
-
-**The Optimization Protocol** — A consent-gated framework applying hypnotic induction to self-directed personal optimization goals, built around explicit safety and consent constraints. → [[The Optimization Protocol]] — *Working Model*
 
 **Pain is Necessary, Suffering is Optional** — The line between useful signal and the rumination loop that runs after it's already landed. → [[Pain is Necessary, Suffering is Optional]]
 

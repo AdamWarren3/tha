@@ -2,7 +2,7 @@
 
 CONCEPTS.md is a working inventory of THA's conceptual structure. Unlike DEFINITIONS.md, which defines canonical terminology, this document inventories underlying concepts as they emerge from the corpus — read independently of existing terms and note titles, then compared against them afterward. Concepts may map one-to-one, one-to-many, or to no current Definitions term. The inventory also distinguishes three structural layers: the Framework itself (which organizes concepts but is not one), Concepts (the ontology), and Practices (operationalizations of one or more concepts that introduce no new mechanism of their own). Relationship types between concepts remain intentionally unclassified until enough examples accumulate to support stable categories.
 
-This is v0.1 (Snapshot) — a checkpoint earned by repeated attempts to falsify it, not a finished map.
+This is v0.3 (Snapshot) — a checkpoint earned by repeated attempts to falsify it, not a finished map.
 
 ---
 
@@ -21,7 +21,7 @@ This is v0.1 (Snapshot) — a checkpoint earned by repeated attempts to falsify 
 | Direct-access principle applied to systems/coordination | Trustless Architecture | Trustless Architecture |
 | Intermediaries hardening from facilitator into gatekeeper | Intermediary Problem | The Intermediary Problem |
 | One update mechanism, three scales | NLP² | NLP² |
-| Recursive self-optimization | AdamW³, AdamW³ as Identity Framework | AdamW³ |
+| Reciprocal shaping | AdamW³ | AdamW³ |
 | Can't optimize a system you're fully inside | Optimization Paradox | The Optimization Paradox |
 | Closing the intention→outcome gap | Manifestation, Intentionality Architecture | Manifestation as Technology **+** Intentionality Architecture |
 | Overcome by building, not attacking | Constructive Displacement | Constructive Displacement |
@@ -33,7 +33,6 @@ This is v0.1 (Snapshot) — a checkpoint earned by repeated attempts to falsify 
 | Physical substrate as foundation | The Physical Layer | The Physical Layer |
 | Biochemical calibration of neuroplasticity | Microdosing as Protocol | Microdosing as Protocol |
 | Suggestion-based induction, documented mechanism | Hypnosis as Protocol | Hypnosis as Protocol |
-| Consent-gated applied induction protocol | The Optimization Protocol | The Optimization Protocol |
 | Small precise intervention, outsized effect | Butterfly Effect as Practice | same |
 | Individual practice compounding into collective effect | The Collective Layer | The Collective Layer |
 | Training on human-rated feedback | RLHF | RLHF |
@@ -49,7 +48,7 @@ This is v0.1 (Snapshot) — a checkpoint earned by repeated attempts to falsify 
 
 ## Practices
 
-Operationalize one or more Concepts above; introduce no mechanism the Concepts table doesn't already contain. Tested against, not just asserted — Butterfly Effect as Practice and The Optimization Protocol both looked like candidates and were confirmed as Concepts instead.
+Operationalize one or more Concepts above; introduce no mechanism the Concepts table doesn't already contain. Tested against, not just asserted — Butterfly Effect as Practice looked like a candidate and was confirmed as a Concept instead.
 
 - **The Tools** (Belief Audit, Deliberate AI Engagement, Goal Structure) — applies Memnetic, Epistemic Hygiene, RLHF, Intentionality Architecture
 - **NLP² in Practice** — applies NLP² across worked examples (hypnosis, advertising, ritual); contributes no mechanism NLP² doesn't already state
@@ -62,7 +61,6 @@ Recorded as observed pairs. Not yet classified into types — seven examples isn
 
 - Optimization Paradox ↔ AdamW³
 - Intermediary Problem ↔ Trustless Architecture
-- Hypnosis as Protocol ↔ Optimization Protocol
 - RLHF ↔ RLAiF
 - Sovereign Signal ↔ Sovereignty Principle
 - Sovereignty Principle ↔ Trustless Architecture

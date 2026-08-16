@@ -4,7 +4,7 @@ The Human Algorithm describes what is happening, and what it is to be a self ins
 
 The premise is that humans run on inherited code: [Memnetic](<Memnetic.md>) infections, institutional middleware, noise at scale, compromised sovereignty. None of that is new. What's new is the speed, and what's sending it.
 
-The name comes from a 1996 altered-state experience — a pulse that never ends, read in the moment as the most basic function running underneath a person. The account is in Article 8.
+The name comes from a 1996 altered-state experience — a pulse that never ends, read in the moment as the most basic function running underneath a person. The account is in [Article 8](<articles/article-8.html>).
 
 The mechanism this framework runs on is old and well documented. William James described it in 1902: the personal will given up, relief refusing to arrive until a person stops striving toward the thing they want. Psychology has been measuring the trait it depends on since 1974. Nothing here was found first, and this note doesn't claim otherwise.
 

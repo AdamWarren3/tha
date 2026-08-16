@@ -18,7 +18,7 @@ This is the best-supported station in the loop. Specific goals outproduce vague 
 
 **3. Bury it.** The counterintuitive station, and the one the practice treats as the commit mechanism. The stated intention is deliberately released from conscious attention. Forgotten on purpose.
 
-What is held and worked and checked does not take. What is stated cleanly and then buried, does. The practice record is consistent on this across three decades (see Article 8). Incubation research supports it: a meta-analysis across creative, visual, and linguistic problems found a positive effect for setting a problem aside, stronger when the preparation before it was longer, and weaker when the interval was filled with demanding work. The effect is established; the explanation is not. Some researchers reject the idea that anything is working on the problem underneath, and this note does not claim it.
+What is held and worked and checked does not take. What is stated cleanly and then buried, does. The practice record is consistent on this across three decades (see [Article 8](<articles/article-8.html>)). Incubation research supports it: a meta-analysis across creative, visual, and linguistic problems found a positive effect for setting a problem aside, stronger when the preparation before it was longer, and weaker when the interval was filled with demanding work. The effect is established; the explanation is not. Some researchers reject the idea that anything is working on the problem underneath, and this note does not claim it.
 
 This appears to contradict the commitment research behind stations 1 and 2, where commitment drives sustained effort. The difference is which problems. Goal-setting studies the kind that yield to pushing. This is for the kind that do not.
 
@@ -34,7 +34,7 @@ The distinction is not pedantic. The Aha experience does track accuracy on avera
 
 This is the station where the discipline lives or dies.
 
-**5. Results dispose.** The final arbiter is outcome. Not intensity of conviction, not beauty of the pattern, not how true it felt. What happened next. The practice record's strongest self-corrections all occurred at this station (see Article 8).
+**5. Results dispose.** The final arbiter is outcome. Not intensity of conviction, not beauty of the pattern, not how true it felt. What happened next. The practice record's strongest self-corrections all occurred at this station (see [Article 8](<articles/article-8.html>)).
 
 This is not a new criterion. James settled on it in 1902 for the same problem, reasoning that the roots of a thing are inaccessible and that no appearance is ever proof — so the only available test is what it produces. By their fruits ye shall know them, not by their roots.
 
@@ -44,13 +44,13 @@ The loop is not new either. Wallas described a four-stage version in 1926 — pr
 
 Each of these was paid for.
 
-- **Never commit during overwhelm.** No re-reading, decision, or identity-level meaning is accepted while flooded. If it's true, it will still be true tomorrow. Held retroactively, this rule would have prevented the practice's worst installation (see Article 8).
+- **The practice never commits during overwhelm.** No re-reading, decision, or identity-level meaning is accepted while flooded. If it's true, it will still be true tomorrow. Held retroactively, this rule would have prevented the practice's worst installation (see [Article 8](<articles/article-8.html>)).
 - **The detector must be able to say no.** A discernment instrument that only confirms is the failure mode this framework calls [slop](<Signal vs Slop.md>). The practice record shows the detector rejecting candidate readings, including flattering ones and ones offered by an AI, and those rejections are treated as evidence the instrument works. One instance is recorded in [Arrival Signature](<Arrival Signature.md>).
 - **An agreeing source is not a second opinion.** A model asked to check an emergence will usually develop it instead. Confirmation from something built to be agreeable is not evidence, and fluency is not corroboration. Where a check is needed, it has to come from something that can lose the argument.
 - **Totalizing outputs are quarantined on arrival.** "For everyone," "the final one," "never again" — flagged by signature alone, before content is weighed.
 - **Not for reading people.** The protocol audits claims, patterns, and one's own mind. Pointed at another person's motives or love, it stops being discernment and becomes suspicion with a mechanism. Where the source is a person, trust is the only protocol that layer runs on.
 - **No crisis stakes, person over data.** No exceptions, the author included.
-- **Peak states are visited, not inhabited.** The practice record includes sustained high states of documented power, and a standing distortion in which every ordinary day is graded against them and fails (see Article 8). The position here: the descent is the delivery step, not the fall. A standard that scores ordinary life as failure is an imposed suggestion and is handled as one. Physiological costs carry a medical-awareness requirement.
+- **Peak states are visited, not inhabited.** The practice record includes sustained high states of documented power, and a standing distortion in which every ordinary day is graded against them and fails (see [Article 8](<articles/article-8.html>)). The position here: the descent is the delivery step, not the fall. A standard that scores ordinary life as failure is an imposed suggestion and is handled as one. Physiological costs carry a medical-awareness requirement.
 
 ## What this note does not claim
 
@@ -66,4 +66,4 @@ Each of these was paid for.
 
 **Negative cases are kept.** Documented misses consistently lack station 1 — intention without real stakes. That predicts a difference between sincere and idle petitions, which is testable and untested.
 
-Everything above was tested on its own author's hardest material before it was written down. That record is Article 8.
+Everything above was tested on its own author's hardest material before it was written down. That record is [Article 8](<articles/article-8.html>).

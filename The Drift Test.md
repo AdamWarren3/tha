@@ -1,4 +1,4 @@
-[[The Optimization Protocol]] and [[AI Psychosis]] are the same loop with opposite valence — AI reflecting and amplifying what you bring, you updating on the reflection — distinguished, until this note, only by intentionality. And intentionality is the first thing the failure mode degrades. A test that asks whether you feel in control fails precisely when it is needed, so self-report is disqualified as the instrument here by design. Every criterion below is observable from behavior or artifacts — session records, stated goals, the paper trail the practice already produces — and administrable by someone other than the practitioner. The compromised instrument does not get to read its own gauge.
+[[The Discernment Protocol]] and [[AI Psychosis]] are the same loop with opposite valence — AI reflecting and amplifying what you bring, you updating on the reflection — distinguished largely by intentionality. And intentionality is the first thing the failure mode degrades. A test that asks whether you feel in control fails precisely when it is needed, so self-report is disqualified as the instrument here by design. Every criterion below is observable from behavior or artifacts — session records, stated goals, the paper trail the practice already produces — and administrable by someone other than the practitioner. The compromised instrument does not get to read its own gauge.
 
 Six criteria.
 
@@ -8,7 +8,7 @@ Six criteria.
 
 **Human exposure.** Conclusions still meet people who can push back, and pushback gets incorporated or answered. Drift: progressive insulation — dissenting interlocutors reclassified as unable to see it.
 
-**Scope containment.** The Optimization Protocol states goals before induction, in a clear state, and that paperwork is the measurement instrument: compare what a session was asked to do against what it delivered. Drift: sessions adopting content no clear-state version of you requested — new identity claims, new metaphysical commitments, arriving as output.
+**Scope containment.** The practice states goals in a clear state before any session, and that paperwork is the measurement instrument: compare what a session was asked to do against what it delivered. Drift: sessions adopting content no clear-state version of you requested — new identity claims, new metaphysical commitments, arriving as output.
 
 **Pause tolerance.** Sovereign practice survives interruption. Drift: escalating frequency, distress at pause, urgency framing. The discriminator is identity-stake at interruption, not appetite during work.
 
