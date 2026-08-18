@@ -43,6 +43,11 @@ This is v0.3 (Snapshot) — a checkpoint earned by repeated attempts to falsify 
 | AI-specific noise from undirected use | Signal vs Slop | Signal vs Slop |
 | Capability vs. safety tension | Summer Dragon Problem | Summer Dragon Problem |
 | Signal/noise, general principle | Signal and Noise | Signal and Noise |
+| The practice the framework was retrofitted onto | The Discernment Protocol | The Discernment Protocol |
+| Reading how a proposal arrived, before results are available | Arrival Signature | Arrival Signature |
+| Protection as a property of format, not of the person | Suggestion Without a Session | Suggestion Without a Session |
+| Behavioural criteria separating sovereign practice from drift | The Drift Test | The Drift Test |
+| What the framework operates on, and where its vocabulary stops | The Human Condition | The Human Condition |
 
 ---
 

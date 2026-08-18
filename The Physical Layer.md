@@ -8,7 +8,7 @@ Exercise is among the most well-documented cognitive enhancement tools available
 
 [[Hypnosis as Protocol]] targets this same neuroplastic capacity through language and suggestion — a different mechanism, the same substrate.
 
-Hydration, sunlight, [[The Human Condition|social connection]] — these are biological requirements that affect system performance measurably [S15]; the last of the three is not only that, and is developed where it belongs.
+Hydration, sunlight, [[The Human Condition|social connection]] — these are biological requirements that affect system performance measurably [S15]; the last of the three is that, and also a great deal more.
 
 [[Epistemic Hygiene]] is downstream of physical maintenance — a sleep-deprived, undernourished mind cannot filter signal from noise reliably regardless of intent.
 
@@ -16,4 +16,4 @@ Hydration, sunlight, [[The Human Condition|social connection]] — these are bio
 
 A well-maintained physical substrate creates conditions from which [[Peace is the Protocol]] becomes more accessible — not as ideology but as a biological baseline.
 
-Optimize the basics first. Everything else compounds from there.
+The basics come first. Everything else compounds from there.

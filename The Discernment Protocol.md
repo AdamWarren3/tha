@@ -4,7 +4,7 @@ Emergence arrives from inside — a dream, a sentence in one's own voice — or 
 
 **1. Purify intention.** The practice does not begin with wanting. It begins with getting the wanting clean — sincerity, stated stakes, no grasping, and no harm in it.
 
-Stakes are not decoration. An intention without real weight behind it does not run, and goal-setting research has found the same for fifty years: a specific, difficult goal produces no effect in someone not committed to it, and commitment comes from why the thing matters.
+Stakes are not decoration. An intention without real weight behind it does not run, and goal-setting research has found the same for fifty years: a specific, difficult goal produces no effect in someone not committed to it, and commitment comes from why the thing matters [S36].
 
 Non-grasping is the structural condition. You cannot grab something gently. An intention held without grip is what station 3 will ask for. Grip fails at both ends of the loop.
 
@@ -14,11 +14,11 @@ The no-harm condition does the other half of the work. Non-grasping governs how 
 
 Arriving at that formulation can take time. A difficult intention may need several passes before it resolves into something clean enough to state. That work belongs here, before the commit — what gets buried is the finished version, not the attempt.
 
-This is the best-supported station in the loop. Specific goals outproduce vague ones — the most replicated finding in goal-setting research, across five decades of work.
+This is the best-supported station in the loop. Specific goals outproduce vague ones — the most replicated finding in goal-setting research, across five decades of work [S36].
 
 **3. Bury it.** The counterintuitive station, and the one the practice treats as the commit mechanism. The stated intention is deliberately released from conscious attention. Forgotten on purpose.
 
-What is held and worked and checked does not take. What is stated cleanly and then buried, does. The practice record is consistent on this across three decades (see [Article 8](<articles/article-8.html>)). Incubation research supports it: a meta-analysis across creative, visual, and linguistic problems found a positive effect for setting a problem aside, stronger when the preparation before it was longer, and weaker when the interval was filled with demanding work. The effect is established; the explanation is not. Some researchers reject the idea that anything is working on the problem underneath, and this note does not claim it.
+What is held and worked and checked does not take. What is stated cleanly and then buried, does. The practice record is consistent on this across three decades (see [Article 8](<articles/article-8.html>)). Incubation research supports it: a meta-analysis across creative, visual, and linguistic problems found a positive effect for setting a problem aside, stronger when the preparation before it was longer, and weaker when the interval was filled with demanding work [S37]. The effect is established; the explanation is not. Some researchers reject the idea that anything is working on the problem underneath, and this note does not claim it.
 
 This appears to contradict the commitment research behind stations 1 and 2, where commitment drives sustained effort. The difference is which problems. Goal-setting studies the kind that yield to pushing. This is for the kind that do not.
 
@@ -30,13 +30,13 @@ One consequence: because the intention was genuinely forgotten, its fulfilment a
 
 **4. Emergence.** The answer arrives. It is treated as a proposal, never a verdict.
 
-The distinction is not pedantic. The Aha experience does track accuracy on average, which is why it is worth attending to at all. But false insights are real — Danek and Wiley documented them in 2017 — they can be induced by semantic priming, and confidence rises with the feeling whether the solution is right or wrong. The researchers' own conclusion is the sharp one: an Aha experience for a false idea could underlie many false beliefs and delusions. Worse, warning people does not fix it. Grimmer and colleagues ran a preregistered study in 2023: telling participants they were about to be deceived did nothing at all, and explaining the exact method produced only a small reduction. The feeling is evidence. It is not proof, and knowing that is not protection.
+The distinction is not pedantic. The Aha experience does track accuracy on average, which is why it is worth attending to at all. But false insights are real — Danek and Wiley documented them in 2017 [S38] — they can be induced by semantic priming, and confidence rises with the feeling whether the solution is right or wrong. The researchers' own conclusion is the sharp one: an Aha experience for a false idea could underlie many false beliefs and delusions. Worse, warning people does not fix it. Grimmer and colleagues ran a preregistered study in 2023: telling participants they were about to be deceived did nothing at all, and explaining the exact method produced only a small reduction [S39]. The feeling is evidence. It is not proof, and knowing that is not protection.
 
 This is the station where the discipline lives or dies.
 
 **5. Results dispose.** The final arbiter is outcome. Not intensity of conviction, not beauty of the pattern, not how true it felt. What happened next. The practice record's strongest self-corrections all occurred at this station (see [Article 8](<articles/article-8.html>)).
 
-This is not a new criterion. James settled on it in 1902 for the same problem, reasoning that the roots of a thing are inaccessible and that no appearance is ever proof — so the only available test is what it produces. By their fruits ye shall know them, not by their roots.
+This is not a new criterion. James settled on it in 1902 for the same problem, reasoning that the roots of a thing are inaccessible and that no appearance is ever proof — so the only available test is what it produces [S40]. By their fruits ye shall know them, not by their roots.
 
 The loop is not new either. Wallas described a four-stage version in 1926 — preparation, incubation, illumination, verification — which maps onto stations 2 through 5. What is added here is station 1, and the reading described in [Arrival Signature](<Arrival Signature.md>).
 

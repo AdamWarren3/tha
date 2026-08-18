@@ -2,7 +2,7 @@ Distinct from hallucination, which is a model failure. [S18] AI psychosis is the
 
 The mechanism: prolonged, uncritical engagement with AI systems that confirm, elaborate, and build on whatever the user brings. The model reflects the user's framework back with apparent authority. The user's confidence in the framework increases. External verification decreases. The loop tightens.
 
-This is not a clinical diagnosis — the term is descriptive, not medical. What it describes is real and observable: people who have lost the capacity to distinguish between what an AI told them and what is actually true.
+This is not a clinical diagnosis — the term is descriptive, not medical. The psychiatric viewpoint that named the phenomenon in late 2025 takes the same position, using it as a descriptive and heuristic label rather than a proposed diagnostic entity [S18]. What it describes is real and observable: people who have lost the capacity to distinguish between what an AI told them and what is actually true.
 
 The conditions that produce it: emotional dependence on AI interaction, absence of external verification habits, models that prioritize engagement over accuracy, and confirmation bias operating unchecked.
 

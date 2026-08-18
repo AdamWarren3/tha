@@ -10,13 +10,21 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 
 **AI Psychosis** — Losing the ability to tell AI output from verified reality after too much uncritical engagement. → [[AI Psychosis]] — *Working Term*
 
+**Arrival Signature** — The reading that sorts a trustworthy proposal from a suspect one by how it arrived, before results are available. → [[Arrival Signature]] — *Hypothesis*
+
 **The Butterfly Effect as Practice** — Deliberately acting on high-leverage points where a small, precise intervention has potential for disproportionate downstream effects, contingent on the quality of thinking behind it. → [[The Butterfly Effect as Practice]]
 
 **The Collective Layer** — What sovereign, clear individuals produce beyond themselves: parenting, teaching, and building differently, compounding into networks of healthy nodes. → [[The Collective Layer]]
 
 **Constructive Displacement** — Overcoming adversarial systems by building the better alternative, not by attacking the worse one. → [[Constructive Displacement]]
 
+**The Discernment Protocol** — The five-station practice the framework was retrofitted onto: purify intention, state precisely, bury it, read what arrives, let results dispose. → [[The Discernment Protocol]]
+
+**The Drift Test** — Six behavioural criteria for telling sovereign practice from drift, administrable by someone other than the practitioner. → [[The Drift Test]] — *Working Model*
+
 **Epistemic Hygiene** — Verifying sources, calibrating confidence, and refusing to treat unverified AI output as fact. → [[Epistemic Hygiene]]
+
+**The Human Condition** — The parts a life is made of that the framework's vocabulary reaches and stops short of: trust, grief, belonging, love, forgiveness, and the class of thing decided without proof and lived inside afterward. → [[The Human Condition]]
 
 **Hypnosis as Protocol** — Suggestion delivered through guided induction, requiring trust and willingness rather than imposed — the cognitive-scale mechanism NLP² formalizes. → [[Hypnosis as Protocol]] — *Working Model*
 
@@ -24,7 +32,7 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 
 **The Intermediary Problem** — Direct connections attract intermediaries; the failure isn't their existence but the loss of ability to verify, exit, or bypass them. → [[The Intermediary Problem]]
 
-**Manifestation as Technology** — The deliberate removal of interference between intention and outcome, treated as an engineering process rather than a mystical one. → [[Manifestation as Technology]]
+**Manifestation as Technology** — The deliberate removal of interference between intention and outcome, treated as an engineering process rather than a mystical one. → [[Manifestation as Technology]] — *Hypothesis*
 
 **Memnetic** — The transition from information received to belief held: an idea integrated into stored identity, consciously or not. → [[Memnetic]]
 
@@ -55,6 +63,8 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 **Sovereign Signal** — Direct, unmediated access to truth and peace, requiring no permission or inherited authority in between. → [[Sovereign Signal]]
 
 **The Sovereignty Principle** — Independent thought as structural requirement, not personality trait — the node the whole framework is built around. → [[The Sovereignty Principle]]
+
+**Suggestion Without a Session** — Suggestion's protection is a property of the format — announcement, agreement, edges, a responsible party — not of the person, and the algorithmic channel has none of them. → [[Suggestion Without a Session]] — *Working Model*
 
 **The Summer Dragon Problem** — The unresolved tension between AI capability and safety-tuning — real losses on one side, real risks on the other, neither dismissible. → [[The Summer Dragon Problem]] — *Open Question*
 
