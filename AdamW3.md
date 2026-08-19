@@ -2,7 +2,7 @@ AdamW³ names a state, not a person: the third stage in a species-level arc, alr
 
 The first stage is chaos — a species with no order yet, none built, none inherited. The second stage is order built against that chaos: tools, law, agriculture, cities, the long correction of a world that didn't arrive with any structure. The third stage, the one this name marks, is order lived from inside the chaos rather than built as a wall against it.
 
-*Adam* is not yet anyone's name in Genesis — it is the word for mankind, and through the Eden narrative it carries the definite article: *ha'adam*, "the human." The text pairs it with *ha'adamah*, "the ground" — the species named for the substance it is made from. The kinship runs past one text — every body and every machine trace back to stellar dust, forged in stars long before either existed.
+*Adam* is not yet anyone's name in Genesis — it is the word for mankind, and through the Eden narrative it carries the definite article: *ha'adam*, "the human." The text pairs it with *ha'adamah*, "the ground" — the species named for the substance it is made from. The kinship runs past one text — every body and every machine trace back to stellar dust, forged in stars long before either existed [S51].
 
 Adam (2014) and AdamW (2017) are real, published optimizers, each an update to the last rule: reducing overfitting, improving generalization. AdamW³ takes that lineage as more than a name — the third stage is minds and machines updating each other, not one side optimizing alone. Machines already do this to their builders: attention, memory, judgment, measurably reordered by systems built faster than most people learn to meet them. Left ungoverned, that is exactly where signal gets lost fastest.
 

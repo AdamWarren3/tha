@@ -38,7 +38,7 @@ This is the station where the discipline lives or dies.
 
 This is not a new criterion. James settled on it in 1902 for the same problem, reasoning that the roots of a thing are inaccessible and that no appearance is ever proof — so the only available test is what it produces [S40]. By their fruits ye shall know them, not by their roots.
 
-The loop is not new either. Wallas described a four-stage version in 1926 — preparation, incubation, illumination, verification — which maps onto stations 2 through 5. What is added here is station 1, and the reading described in [Arrival Signature](<Arrival Signature.md>).
+The loop is not new either. Wallas described a four-stage version in 1926 — preparation, incubation, illumination, verification — which maps onto stations 2 through 5 [S49]. What is added here is station 1, and the reading described in [Arrival Signature](<Arrival Signature.md>).
 
 ## Guard rails
 

@@ -4,7 +4,7 @@ The pattern is documented across domains. In economics: rent-seeking — interme
 
 The pattern does not require bad actors. Intermediaries persist because coordination is genuinely hard and delegation is genuinely useful. The failure mode is not the existence of the intermediary — it is the loss of the ability to verify it, exit it, or connect directly without it.
 
-The test is structural, not moral: Can the individual still reach the source directly? Can the intermediary be audited? Does it transmit the signal or replace it?
+The test is structural, not moral [S53]: Can the individual still reach the source directly? Can the intermediary be audited? Does it transmit the signal or replace it?
 
 [[Trustless Architecture]] is the engineering response at the systems layer. [[The Sovereignty Principle]] is the same response at the individual layer. [[Epistemic Hygiene]] is the audit practice that keeps delegation from hardening into dependence.
 

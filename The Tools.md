@@ -10,4 +10,4 @@ None of this guarantees good output. It creates conditions where good output is 
 
 **Goal structure.** [[Intentionality Architecture]] applied: defined target state, identified friction points, one action inside twenty-four hours, and observable markers instead of feelings. A vague goal is a wish. Structure converts wishes into architecture.
 
-These are not proprietary techniques. They are disciplines. The framework documents them. The practice is yours.
+These are not proprietary techniques. They are disciplines [S53]. The framework documents them. The practice is yours.

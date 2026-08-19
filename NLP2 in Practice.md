@@ -4,7 +4,7 @@ The unified theory applied as a tool. If [[NLP2|the computational scale]], neuro
 
 The cultural layer of NLP² is [[Memnetic]] — transmitted ideas that become stored identity through repeated reinforcement loops.
 
-Once you see the unified layer, you can't unsee it. Society rates your outputs, you unconsciously update toward what gets rewarded. The mechanism is strikingly analogous — different substrate, same update rule.
+Once you see the unified layer, you can't unsee it [S53]. Society rates your outputs, you unconsciously update toward what gets rewarded. The mechanism is strikingly analogous — different substrate, same update rule.
 
 This is the unified layer of [[The Human Algorithm]] — once you see that all programming operates by the same analogous mechanism, you can work it deliberately. [[Intentionality Architecture]] is NLP² applied consciously. [[Epistemic Hygiene]] is the filter that keeps the programming clean.
 

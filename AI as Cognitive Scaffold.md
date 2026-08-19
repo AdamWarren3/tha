@@ -4,6 +4,8 @@ The analogy to an external prefrontal cortex is useful but imprecise — the mec
 
 An important distinction: AI does not have memory in the human sense. What exists is contextual retention within a session and, where memory systems are enabled, stored summaries of past interactions. This is meaningfully different from genuine relational memory. The scaffold is real. The relationship it simulates requires honest framing.
 
+The scaffold has a measured cost, and it is not the one usually named. Treating an external store as a memory partner shifts what gets encoded — when future access is expected, people retain *where* rather than *what*, an effect real but strongly moderated on later evidence. The sharper finding is that searching for explanations inflates self-assessed internal knowledge, **including on topics never searched, and even when the search returns nothing useful** — the act of searching, not the information retrieved [S52]. A system that answers in fluent prose resembling the user's own reasoning has every feature that produced that effect and more of them. The scaffold is real. So is the risk of mistaking what it holds for what you know.
+
 Used without that honesty, AI reflection can amplify [[Signal vs Slop|distortion]] as easily as it clarifies signal — a model will reflect back whatever you bring, including biases and errors, with apparent authority. [[Epistemic Hygiene]] is therefore not optional when using AI as scaffold.
 
 Used deliberately, with [[Intentionality Architecture]] and accurate expectations, AI is among the most powerful cognitive tools available. [[The Human Algorithm]] treats it as exactly that — a tool, not an oracle. The deeper the [[Sovereign Signal|signal]] you bring, the more useful the reflection.

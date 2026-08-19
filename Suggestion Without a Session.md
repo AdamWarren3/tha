@@ -2,9 +2,9 @@ You cannot be hypnotised against your will. That is the belief.
 
 It is roughly correct, and it is correct about something narrower than it appears. It is correct about a *format*. Someone announces what they are about to do. You agree. There is a beginning and an end. There is a person in the room who can be held responsible for what happens between them. Inside that arrangement a resistant subject is genuinely hard to induct, and cooperation matters a great deal.
 
-Two things complicate it. Responsiveness is largely a trait — psychology has been measuring absorption since 1974, and it predicts hypnotic response better than willingness does. Some people who want it go deep; other people who want it barely respond. Wanting is not sufficient.
+Two things complicate it. Responsiveness is largely a trait — psychology has been measuring absorption since 1974 [S08], and it predicts hypnotic response better than willingness does. Some people who want it go deep; other people who want it barely respond. Wanting is not sufficient.
 
-And suggestion outside that format does not require cooperation at all. The hypnosis literature already has a name for it: *waking suggestion*, where hypnotic effects occur with no trance state and the critical faculty is bypassed anyway. Priming, framing, repetition and expectancy work on people who do not know they are running — false insights can be induced by semantic priming in people who sat down to solve puzzles and agreed to nothing else.
+And suggestion outside that format does not require cooperation at all. The hypnosis literature already has a name for it: *waking suggestion*, where hypnotic effects occur with no trance state and the critical faculty is bypassed anyway [S48]. The strongest result in that literature is blunter than this note needs: removing the induction had no appreciable effect on any dimension of hypnotic responsivity, and in a later study participants reported equivalent perceptual changes with and without one — but reported being *in a hypnotic state* only when an induction had been given. Priming, framing, repetition and expectancy work on people who do not know they are running — false insights can be induced by semantic priming in people who sat down to solve puzzles and agreed to nothing else.
 
 So the protection is not where people think it is. **It is not in the mind. It is in the format.** The announcement, the agreement, the edges of the session, the responsible party — those are what made the folk belief true, and every one of them is a property of the arrangement rather than of the person inside it.
 
@@ -34,7 +34,7 @@ A consent that holds has to be structural rather than epistemic. Limits on what 
 
 **That the difference is measured.** This is an argument from the structure of two arrangements, not a finding. No study compares them.
 
-**That the states differ.** The absorbed, low-resistance state may be exactly the one measured since 1974. The claim is about delivery, not about the person inside it.
+**That the states differ.** The absorbed, low-resistance state may be exactly the one measured since 1974 [S08]. The claim is about delivery, not about the person inside it.
 
 **That consent settles the matter.** What structural consent consists of is a separate question and is not answered here.
 
