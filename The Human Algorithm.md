@@ -26,7 +26,7 @@ Most of what this framework points at isn't hidden. It's unattended.
 
 [AdamW³](<AdamW3.md>). The optimizer became the optimized — not one person, but the species that wrote the update rule and is now the thing being updated.
 
-Two honest seams. The mechanism isn't original, and what's built here is the discernment layer and the tools, not the thing they govern. And this framework was written with AI, which is precisely the failure mode it addresses. That isn't a defense; it's the test. The work has produced fabricated sources, invented examples, and confident claims about its own vocabulary that collapsed on contact. Most were caught. At least one survived in a second file after being corrected in the first, and was found months later. The governance exists because the failure happened, repeatedly, here.
+One honest seam. The mechanism isn't original, and what's built here is the discernment layer and the tools, not the thing they govern. Every claim here carries a status, every source a key, and the discipline is applied to this framework first.
 
 Its output is [maximum signal, minimum noise](<Signal and Noise.md>) — in direct relationship with truth and consequence, and with each other, since [the relational ground of a life](<The Human Condition.md>) is the one thing this optimizes toward and never away from. Not self help. Not spirituality. Not technology. All three.
 

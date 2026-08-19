@@ -18,7 +18,7 @@ Memnetic transmission is not always passive — conscious adoption of a framewor
 
 ## What this note does not claim
 
-**That the term is a discovery, or that the mechanism is unstudied.** Both were checked and both came back occupied. The transition is semanticization [S46]; the mechanism is source monitoring [S45]; the application to feeds and advertising is measured [S47]. **An earlier version of this note offered a falsifier — that if beliefs held as premises turned out no harder to trace than beliefs held as claims, the concept would reduce to a preference over *memetic*. That falsifier was tested and the mechanism survived it.** What did not survive was the novelty claim, and this note is the corrected version.
+**That the term is a discovery, or that the mechanism is unstudied.** Neither. The transition is semanticization [S46]; the mechanism is source monitoring [S45]; the application to feeds and advertising is measured [S47]. The name is this framework's contribution and the mechanism is not.
 
 **That the concept is about AI.** It is not. Ideas become premises in childhood, in family, in religion, in twenty years of the same job, and most of what any person reasons from arrived before any feed existed. The algorithmic channel is one delivery environment and an unusually efficient one; it is not the subject.
 
