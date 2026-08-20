@@ -10,4 +10,4 @@ One thing the new literacy cannot be built on is labelling. Source tags are forg
 
 [[AI Psychosis]] is the risk on one end. Sovereign, intentional AI use is the opportunity on the other. The New Literacy is the distance between them.
 
-Published as an article on The Human Algorithm: https://adamwarren3.github.io/tha/articles/2026-06-18-new-literacy.html
+Published as an article on The Human Algorithm: [The New Literacy: Conscious Engagement in the Age of Intelligent Systems](<articles/2026-06-18-new-literacy.html>)

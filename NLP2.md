@@ -8,9 +8,9 @@ At the computational scale, large language models demonstrate that language has 
 
 At the cognitive scale, cognitive linguistics documents that language shapes thought, not just expresses it. The Sapir-Whorf hypothesis — that the language you speak influences how you perceive reality — has partial empirical support [S05]. More robustly: hypnosis demonstrates that language delivered under specific conditions can bypass conscious filters and directly update behavior and belief. This is documented neurologically, not just anecdotally. [S06]
 
-See [[Hypnosis as Protocol]] for the full development of this mechanism and its application within THA.
+See [[Hypnosis as Protocol]] for the full framework of this mechanism and its application within THA.
 
-At the cultural scale, Marshall McLuhan's foundational observation: "the medium is the message." Media formats program perception independently of content. Television was called programming. That wasn't metaphor. [S07]
+At the cultural scale, Marshall McLuhan's foundational observation in 1964 [S07]: "the medium is the message." Media formats program perception independently of content. Television was called programming. That wasn't metaphor. [S07]
 
 The synthesis: the same mechanism — language structuring the system it runs on — operates at all three scales simultaneously. A shift at one scale propagates to the others. This is the NLP² hypothesis. It is presented as a framework for investigation, not established theory.
 
@@ -18,4 +18,4 @@ What would count as evidence — and what would count against. If the propagatio
 
 [[Memnetic]] is the transmission mechanism at the cultural scale. [[AI as Cognitive Scaffold]] is the computational scale made practically useful. [[The Human Algorithm]] is the deliberate application of this framework across all three scales simultaneously.
 
-The historical origin of this observation, dramatized: The Language Underneath — https://adamwarren3.github.io/tha/articles/2026-06-20-language-underneath.html
+The historical origin of this observation, dramatized: [The Language Underneath: A Veiled Rapport](<articles/2026-06-20-language-underneath.html>)
