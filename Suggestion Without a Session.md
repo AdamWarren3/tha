@@ -26,7 +26,7 @@ If the protection was never in wanting it, then consent is not what makes sugges
 
 Consent is a legitimacy condition. Suggestion operates whether or not a person agreed, and that is precisely why the unagreed version is a harm. What consent settles is whether running it is permitted, not whether it functions.
 
-This matters because informing people does not protect them. The forewarning evidence is unhelpful here. In a 2023 preregistered study, participants told in advance that they were about to be deceived were no less deceived, and a full explanation of the method moved the result only slightly [S39]. Anywhere a framework leans on an informed reader, that is the counter-evidence.
+This matters because informing people does not protect them. The forewarning evidence is unhelpful here. In a 2023 preregistered study, participants told in advance that they were about to be deceived were no less deceived, and a full explanation of the method moved the result only slightly [S39]. Anywhere a framework leans on an informed reader, that is the counter-evidence. And a warning that works does not keep working: where forewarning did reduce reliance on material a person had been told was false, the protection decayed over the following week while memory of the correction itself survived [S39]. A disclosure sits at the beginning of an arrangement. What it warned about accumulates after.
 
 A consent that holds has to be structural rather than epistemic. Limits on what may be suggested. An exit that is real at any moment. A record of what was delivered. A person who authored the target rather than agreeing to someone else's.
 
