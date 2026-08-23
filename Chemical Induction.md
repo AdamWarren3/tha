@@ -1,6 +1,6 @@
-Some altered states are entered by technique. Others are entered by swallowing something. **This note is about the second, and about what changes when the induction is chemical rather than conversational.**
+Chemically induced alteration of conscious state. The target is neuroplasticity, the brain's measurable capacity to update its own architecture.
 
-**The state itself is documented.** Full doses of psilocybin reduce Default Mode Network activity — the system associated with rumination, fixed identity narratives and inherited loops [S12]. A single dose also produces measurable structural change: roughly a ten percent increase in dendritic spine density in mouse frontal cortex, appearing within a day and still present a month later [S62]. That is a real finding and it is why the compound is being trialled clinically.
+Full doses of psilocybin reduce Default Mode Network activity — the system associated with rumination, fixed identity narratives and inherited loops [S12]. A single dose also produces structural change: roughly a ten percent increase in dendritic spine density in mouse frontal cortex, appearing within a day and still present a month later [S62]. That is a real finding and it is why the compound is being trialled clinically.
 
 **Three things that finding does not say**, because the popular version says all three. It is about **new connections between existing neurons**, not new neurons — those are separate claims and the second rests on rodent hippocampal work. It was not previously thought impossible; ketamine produces comparable spine growth and adult cortical plasticity was already established. And the evidence is from mice and cultured human cells; direct human evidence of the mechanism remains limited [S62].
 
