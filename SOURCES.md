@@ -46,7 +46,7 @@ Last verified against live sources: 2026-07-12. Note on [S17]: independent re-ve
 
 **[S11]** — Hypnosis reliably increases confidence and volume of recalled material, not its accuracy, and increases false memories alongside true ones. **Class (a).** Steblay, N. & Bothwell, R. (1994), *Law and Human Behavior*, meta-analytic review; American Medical Association Council on Scientific Affairs (1985) on hypnotically-refreshed recollection. Directly supports the note's own recall caveat.
 
-## Microdosing as Protocol
+## Chemical Induction
 
 **[S12]** — Reduced Default Mode Network activity under psychedelics, associated with reduced rumination and loosened fixed self-patterns. **Class (a), with a correction the source forces.** Carhart-Harris, R. et al. (2012), *PNAS*, is the DMN-suppression finding — but it studied psilocybin at full (macro) doses, not microdoses. Controlled microdosing trials have largely failed to separate from placebo on the relevant measures: Szigeti, B. et al. (2021), *eLife*, self-blinding placebo-controlled study, found expectancy accounted for most reported benefit. The note's evidence base is corrected accordingly: the DMN mechanism is real at macrodoses; its extension to microdoses is unproven and plausibly placebo-driven. The hypothesis is kept, its *Hypothesis* status is unchanged, and the evidence is now stated honestly rather than borrowed from the wrong dose range.
 
@@ -217,6 +217,16 @@ Last verified against live sources: 2026-07-12. Note on [S17]: independent re-ve
 **The dispute, kept because it is unresolved.** Dewhurst, J. (2021), "Causal emergence from effective information: Neither causal nor emergent?", *Thought: A Journal of Philosophy*, doi [10.1002/tht3.489](https://doi.org/10.1002/tht3.489), argues the measure captures neither causation nor emergence in the senses claimed. Eberhardt, F. & Lee, L. L. (2022), "Causal Emergence: When Distortions in a Map Obscure the Territory," *Philosophies* 7(2):30, argues the macro advantage is an artefact of the description rather than a property of the system. **The formal result is not contested; what it licenses is.**
 
 **Scope, and this is the limit that matters for how this framework uses it.** Causal emergence concerns levels of description *within a single system*. It licenses the claim that a coarse-grained state can constrain that system's own subsequent states more strongly than a fine-grained one. **It licenses nothing about a held mental state acting on events outside the person**, and no one in this literature claims otherwise. Any note citing it must draw that line explicitly. Verified 2026-08-22.
+
+**[S62]** — Structural plasticity after a single psychedelic dose, and the limits of what that supports. **Class (a), with three distinctions the popular account collapses.** Shao, L.-X., Liao, C., Gregg, I., Davoudian, P. A., Savalia, N. K., Delagarza, K. & Kwan, A. C. (2021), "Psilocybin induces rapid and persistent growth of dendritic spines in frontal cortex in vivo," *Neuron* 109(16):2535–2544.e4 — chronic two-photon imaging of layer 5 pyramidal neurons in mouse medial frontal cortex; **a single dose produced approximately 10% increases in dendritic spine density and spine head width, appearing within 24 hours and still present one month later**, driven by an elevated formation rate rather than reduced elimination. The term *psychoplastogen* comes from Ly, C. et al. (2018), *Cell Reports* 23:3170–3182. Extension to human tissue: "Psilocin fosters neuroplasticity in iPSC-derived human cortical neurons," *eLife* (2026), doi [10.7554/eLife.104006](https://doi.org/10.7554/eLife.104006), reporting the first evidence of psilocybin activating neuroplastic programs in human neurons.
+
+**Distinction one: spines are not neurons.** What is documented is **synaptogenesis and dendritogenesis** — new connections between existing neurons. **Neurogenesis, the growth of new neurons, is a separate claim**, rests on rodent hippocampal work, and at least one study reports it dose-dependent in the opposite direction, with low doses enhancing and high doses inhibiting neuronal growth. The two are routinely merged in popular accounts and this framework does not merge them.
+
+**Distinction two: not previously thought impossible.** Structural plasticity in adult cortex was established before this work; ketamine produces comparable spine growth. What is new is the speed and persistence after a single administration.
+
+**Distinction three: the human evidence is indirect.** The finding is in mice, with supporting work in cultured human neurons. A current trial protocol states the position plainly — direct evidence of this mechanism in humans is limited and difficult to obtain.
+
+**What is not in this entry, deliberately.** No controlled human trial of psilocybin combined with lion's mane and niacin was located. The combination is widely discussed; the evidence for it as a formula was not found, and it is therefore not cited here in any form. Verified 2026-08-22.
 
 ---
 

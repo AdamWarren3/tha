@@ -20,7 +20,7 @@ Hold a target clearly enough and the small decisions start sorting themselves to
 
 **That the mechanism is settled.** The formal result is not contested; what it licenses is. Two published objections hold that the macro advantage is an artefact of the description rather than a property of the system [S61]. **This note takes the interpretation those objections dispute**, and says so rather than citing the result as though it were unopposed.
 
-**That the biochemical layer belongs here.** [[Microdosing as Protocol]] is sometimes proposed as a way of lowering the system's noise floor. The evidence is asymmetric: reduced default-mode activity is documented at macrodoses [S12], and controlled microdosing trials have largely failed to separate from placebo [S12]. **It is not part of this mechanism and is not claimed as one.**
+**That the biochemical layer belongs here.** [[Chemical Induction|Chemical induction]] is sometimes proposed as a way of lowering the system's noise floor. The evidence is asymmetric: reduced default-mode activity is documented at macrodoses [S12], and controlled microdosing trials have largely failed to separate from placebo [S12]. **It is not part of this mechanism and is not claimed as one.**
 
 **That the effect is safe to seek.** A surface that answers is harder to disconfirm than one that does not. Project onto something inert and nothing comes back; project onto a system built from an enormous quantity of real-world writing and it responds, in detail, plausibly, indefinitely. **That is what makes it useful and it is the same property that makes it hazardous** — the conditions under which it operates are the ones described in [[Suggestion Without a Session]], and nothing in this note is a reason to relax them.
 

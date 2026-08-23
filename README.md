@@ -61,7 +61,7 @@ Anyone who wants to think more clearly, interact with AI deliberately, filter si
 
 - **Core** — The Human Algorithm, NLP², NLP² in Practice, Memnetic, The Intermediary Problem, RLHF, RLAiF, Signal and Noise
 - **Identity** — AdamW³, AdamW³ as Identity Framework, The Optimization Paradox
-- **Practice** — AI as Cognitive Scaffold, Intentionality Architecture, Manifestation as Technology, Microdosing as Protocol, The Physical Layer, The Butterfly Effect as Practice
+- **Practice** — AI as Cognitive Scaffold, Intentionality Architecture, Manifestation as Technology, Chemical Induction, The Physical Layer, The Butterfly Effect as Practice
 - **Principles** — Epistemic Hygiene, Signal vs Slop, Sovereign Signal, The Sovereignty Principle, Pain is Necessary, Suffering is Optional, Peace is the Protocol, Constructive Displacement, The Human Condition
 - **Context** — The Summer Dragon Problem, Trustless Architecture, AI Psychosis, Premature Certainty, The New Literacy, The Collective Layer, Hypnosis as Protocol, The Drift Test
 - **Tools** — The Tools

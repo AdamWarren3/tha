@@ -6,7 +6,7 @@ Sleep loss does not only degrade the substrate. Past a point it produces the sta
 
 Diet determines the quality of the substrate. The brain is a metabolic organ — what you feed it affects how it functions. Processed food, chronic inflammation, micronutrient deficiency degrade signal quality at the hardware level. This is not a moral position — it is engineering.
 
-Exercise is among the most well-documented cognitive enhancement tools available. Aerobic exercise increases BDNF — brain-derived neurotrophic factor — which supports neuroplasticity [S14]. The same neuroplastic capacity that [[Microdosing as Protocol]] targets is also activated by consistent physical movement.
+Exercise is among the most well-documented cognitive enhancement tools available. Aerobic exercise increases BDNF — brain-derived neurotrophic factor — which supports neuroplasticity [S14]. The same neuroplastic capacity discussed in [[Chemical Induction]] is also activated by consistent physical movement.
 
 [[Hypnosis as Protocol]] targets this same neuroplastic capacity through language and suggestion — a different mechanism, the same substrate.
 

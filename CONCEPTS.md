@@ -1,6 +1,6 @@
 # Concepts
 
-CONCEPTS.md is a working inventory of THA's conceptual structure. Unlike DEFINITIONS.md, which defines canonical terminology, this document inventories underlying concepts as they emerge from the corpus — read independently of existing terms and note titles, then compared against them afterward. Concepts may map one-to-one, one-to-many, or to no current Definitions term. The inventory also distinguishes three structural layers: the Framework itself (which organizes concepts but is not one), Concepts (the ontology), and Practices (operationalizations of one or more concepts that introduce no new mechanism of their own). Relationship types between concepts remain intentionally unclassified until enough examples accumulate to support stable categories.
+CONCEPTS.md is a working inventory of THA's conceptual structure. Unlike Definitions, which defines canonical terminology, this document inventories underlying concepts as they emerge from the corpus — read independently of existing terms and note titles, then compared against them afterward. Concepts may map one-to-one, one-to-many, or to no current Definitions term. The inventory also distinguishes three structural layers: the Framework itself (which organizes concepts but is not one), Concepts (the ontology), and Practices (operationalizations of one or more concepts that introduce no new mechanism of their own). Relationship types between concepts remain intentionally unclassified until enough examples accumulate to support stable categories.
 
 This is v0.3 (Snapshot) — a checkpoint earned by repeated attempts to falsify it, not a finished map.
 
@@ -31,7 +31,7 @@ This is v0.3 (Snapshot) — a checkpoint earned by repeated attempts to falsify 
 | Verification as continuous practice | Epistemic Hygiene | Epistemic Hygiene |
 | Culture transmits into identity | Memnetic | Memnetic |
 | Physical substrate as foundation | The Physical Layer | The Physical Layer |
-| Biochemical calibration of neuroplasticity | Microdosing as Protocol | Microdosing as Protocol |
+| What an arrangement supplies when the induction is chemical | Chemical Induction | Chemical Induction |
 | Suggestion-based induction, documented mechanism | Hypnosis as Protocol | Hypnosis as Protocol |
 | Small precise intervention, outsized effect | Butterfly Effect as Practice | same |
 | Individual practice compounding into collective effect | The Collective Layer | The Collective Layer |

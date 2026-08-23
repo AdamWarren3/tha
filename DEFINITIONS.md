@@ -36,7 +36,7 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 
 **Memnetic** — The transition from information received to belief held: an idea integrated into stored identity, consciously or not. → [[Memnetic]]
 
-**Microdosing as Protocol** — A biochemical intervention treated as a way to lower the noise floor on fixed identity patterns, potentially making previously obscured signal more legible. → [[Microdosing as Protocol]] — *Hypothesis*
+**Chemical Induction** — Altered states entered by substance rather than by technique, and what the surrounding arrangement supplies or withholds. → [[Chemical Induction]] *(Hypothesis)*
 
 **The New Literacy** — The discipline of interacting with AI deliberately: setting intention before querying, filtering output through Epistemic Hygiene, verifying rather than simply consuming. → [[The New Literacy]]
 
