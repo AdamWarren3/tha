@@ -23,7 +23,7 @@ This is v0.3 (Snapshot) — a checkpoint earned by repeated attempts to falsify 
 | One update mechanism, three scales | NLP² | NLP² |
 | Reciprocal shaping | AdamW³ | AdamW³ |
 | Can't optimize a system you're fully inside | Optimization Paradox | The Optimization Paradox |
-| Closing the intention→outcome gap | Manifestation, Intentionality Architecture | Manifestation as Technology **+** Intentionality Architecture |
+| A held coarse target constraining fine decisions | Manifestation, Intentionality Architecture | Manifestation as Technology **+** Intentionality Architecture |
 | Overcome by building, not attacking | Constructive Displacement | Constructive Displacement |
 | Peace as engineered, maintained state | Peace is the Protocol | Peace is the Protocol |
 | Pain as signal, suffering as noise | Pain is Necessary/Suffering is Optional | same |

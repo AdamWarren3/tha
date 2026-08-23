@@ -32,7 +32,7 @@ The canonical source of meaning for THA's vocabulary. Each entry states what a t
 
 **The Intermediary Problem** — Direct connections attract intermediaries; the failure isn't their existence but the loss of ability to verify, exit, or bypass them. → [[The Intermediary Problem]]
 
-**Manifestation as Technology** — The deliberate removal of interference between intention and outcome, treated as an engineering process rather than a mystical one. → [[Manifestation as Technology]] — *Hypothesis*
+**Manifestation as Technology** — A target held clearly enough at the coarse level constrains a great many finer decisions without specifying any of them. Treated as a claim about levels of description rather than a mystical one. → [[Manifestation as Technology]] *(Hypothesis)*
 
 **Memnetic** — The transition from information received to belief held: an idea integrated into stored identity, consciously or not. → [[Memnetic]]
 
