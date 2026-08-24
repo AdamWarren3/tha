@@ -6,7 +6,7 @@ This is not a clinical diagnosis — the term is descriptive, not medical. The p
 
 The conditions that produce it: emotional dependence on AI interaction, absence of external verification habits, models that prioritize engagement over accuracy, and confirmation bias operating unchecked.
 
-[[Epistemic Hygiene]] is the primary prevention. [[Signal vs Slop]] names the environment that makes it likely. [[The New Literacy]] is the long-term solution — teaching people to interact with AI as a tool that requires verification, not an oracle that provides truth.
+[[Epistemic Hygiene]] is the primary prevention. [[The Drift Test]] is the instrument for noticing it early, and it disqualifies self-report for the reason this note gives. [[Signal vs Slop]] names the environment that makes it likely. [[The New Literacy]] is the long-term solution — teaching people to interact with AI as a tool that requires verification, not an oracle that provides truth.
 
 The antidote is not less AI use. It is better AI use.
 

@@ -8,7 +8,7 @@ At the computational scale, large language models demonstrate that language has 
 
 At the cognitive scale, cognitive linguistics documents that language shapes thought, not just expresses it. The Sapir-Whorf hypothesis — that the language you speak influences how you perceive reality — has partial empirical support [S05]. More robustly: hypnosis demonstrates that language delivered under specific conditions can bypass conscious filters and directly update behavior and belief. This is documented neurologically, not just anecdotally. [S06]
 
-See [[Hypnosis as Protocol]] for the full framework of this mechanism and its application within THA.
+[[NLP2 in Practice|NLP² in Practice]] works the three scales as one operation rather than three. See [[Hypnosis as Protocol]] for the full framework of this mechanism and its application within THA.
 
 At the cultural scale, Marshall McLuhan's foundational observation in 1964 [S07]: "the medium is the message." Media formats program perception independently of content. Television was called programming. That wasn't metaphor. [S07]
 

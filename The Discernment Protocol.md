@@ -66,4 +66,4 @@ Each of these was paid for.
 
 **Negative cases are kept.** Documented misses consistently lack station 1 — intention without real stakes. That predicts a difference between sincere and idle petitions, which is testable and untested.
 
-Everything above was tested on its own author's hardest material before it was written down. That record is [Article 8](<articles/article-8.html>).
+Whether the Protocol is still being run or has quietly become something else is not a question it can answer about itself. [[The Drift Test]] is the separate instrument for that. Everything above was tested on its own author's hardest material before it was written down. That record is [Article 8](<articles/article-8.html>).

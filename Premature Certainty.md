@@ -4,6 +4,6 @@ The components are documented cognitive phenomena. Confirmation bias: evidence c
 
 The signature of premature certainty is that nobody lies. Every input is true. The false thing is the arrangement — and the arrangement is invisible to the people inside it, because each person only contributed one true piece.
 
-[[Epistemic Hygiene]] is the individual counter-practice. [[Signal vs Slop]] names the environment that accelerates it. [[Memnetic]] describes how the arranged story, once assembled, transmits and stores as fact.
+[[Epistemic Hygiene]] is the individual counter-practice. [[The Summer Dragon Problem]] is the same failure seen from the system's side — a plausible arrangement with nothing false in it. [[Signal vs Slop]] names the environment that accelerates it. [[Memnetic]] describes how the arranged story, once assembled, transmits and stores as fact.
 
 The mechanism, demonstrated: [BEN](<articles/2026-06-23-ben.html>).
